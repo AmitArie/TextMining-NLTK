@@ -2,32 +2,24 @@
 
 import json
 from nltk.tag import StanfordNERTagger
-st = StanfordNERTagger('english.all.3class.distsim.crf.ser.gz')
+import collections
 
+i = 0
+for article_number in range(1):
+	file_name = str(article_number) + ".json"
+	with open(file_name) as json_article:    
+		article = json.loads(json.load(json_article))
+		# print(data["sent_tag"])
 
+		print("Article name: ", article["name"])
+		print("Article number: ", i)
+		sent = [ [int(k),v] for k, v in article["sent_tag"].items() ]
+		sent.sort(key=lambda x: x[0])
 
-def get_main_company_from_article(article):
-	article_companies = get_companies_from_article(article)
-
-
-
-with open('articles_tags_file.json') as data_file:    
-    data = json.load(data_file)
-
-    # for article_number in range(len(data)):
-    for article_number in range(10):
-    	article_json = json.loads(data[article_number])
-    	print("article name: ", article_json["name"])
-
-    	for key  in article_json["sent_tag"]:
-    		print("sent number: ", key , "  " , article_json["sent_tag"][key])
-    		print("##################################################")
-    	print("  ")
-    	print("  ")
-    	print("  ")
-    	print("  ")
-    	print("  ")
-
+		for s in sent:
+			print(s[1])
+			print("  ")
+	i += 1
 
 
 
