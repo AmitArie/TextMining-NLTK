@@ -4,6 +4,7 @@ import json
 import pandas as pd
 from nltk.tag import StanfordNERTagger
 import nltk as nltk
+import  concurrent.futures
 
 
 
@@ -30,25 +31,35 @@ def tag_atricle_sentence(article):
 	return sent_tags
 
 
-with open("articles_tags_file.json", mode='w', encoding='utf-8') as f:
-    json.dump([], f)
+def createFullTagOfArticle(articleNUmber):
+		print("article number: ", articleNUmber)
+		article = {}
+		article["name"] = articles[articleNUmber][ARTICLE_TITLE]
+		article["sent_tag"] = tag_atricle_sentence(articles[articleNUmber][ARTICLE_BODY])
+		json_data = json.dumps(article)
+		return json_data
+
+
+executor = concurrent.futures.ProcessPoolExecutor(10)
+futures = [executor.submit(createFullTagOfArticle, i) for i in range(len(articles))]
+concurrent.futures.wait(futures)
+
+
+# with open("articles_tags_file.json", mode='w', encoding='utf-8') as f:
+#     json.dump([], f)
 
 
 
-with open("articles_tags_file.json", mode='w', encoding='utf-8') as feedsjson:
-	articles_list = []
+# with open("articles_tags_file.json", mode='w', encoding='utf-8') as feedsjson:
+# 	articles_list = []
 	
 
-	for i in range(0, 10):
-		print("article number: ", i)
-		article = {}
-		article["name"] = articles[i][ARTICLE_TITLE]
-		article["sent_tag"] = tag_atricle_sentence(articles[i][ARTICLE_BODY])
-		json_data = json.dumps(article)
-		articles_list.append(json_data)
+# 	for i in range(0, 10):
 
-		print(json_data)
-	json.dump(articles_list, feedsjson)
+
+# 		print(json_data)
+# 	json.dump(articles_list, feedsjson)
+
 
 
 
