@@ -1,0 +1,634 @@
+Article name:  Microsoft ups Windows Server 2016 resource limits
+Article number:  0
+[['Microsoft', 'ORGANIZATION'], ['ups', 'O'], ['Windows', 'O'], ['Server', 'O'], ['2016', 'O'], ['resource', 'O'], ['limits', 'O'], ['Microsoft', 'ORGANIZATION'], ['has', 'O'], ['published', 'O'], ['the', 'O'], ['scalability', 'O'], ['limits', 'O'], ['for', 'O'], ['its', 'O'], ['upcoming', 'O'], ['Windows', 'O'], ['Server', 'O'], ['2016,', 'O'], ['increasingthe', 'O'], ['physical', 'O'], ['hardware', 'O'], ['capacity', 'O'], ['limits', 'O'], ['considerably.', 'O']]
+  
+[['Windows', 'O'], ['Server', 'O'], ['principal', 'O'], ['program', 'O'], ['manager', 'O'], ['Jeff', 'PERSON'], ['Woolsey', 'PERSON'], ['pointed', 'O'], ['to', 'O'], ['the', 'O'], ['need', 'O'], ['to', 'O'], ['accommodate', 'O'], ['massive', 'O'], ['in-memory', 'O'], ['databases', 'O'], ['and', 'O'], ['demand', 'O'], ['for', 'O'], ['more', 'O'], ['virtual', 'O'], ['machines', 'O'], ['per', 'O'], ['physical', 'O'], ['server', 'O'], ['for', 'O'], ['analytics', 'O'], ['and', 'O'], ['machine', 'O'], ['learning', 'O'], ['usage', 'O'], ['as', 'O'], ['the', 'O'], ['reason', 'O'], ['for', 'O'], ['the', 'O'], ['raised', 'O'], ['limits.', 'O']]
+  
+[['The', 'O'], ['amount', 'O'], ['of', 'O'], ['physical', 'O'], ['memory', 'O'], ['in', 'O'], ['Windows', 'O'], ['Server', 'O'], ['2016', 'O'], ['Standard', 'O'], ['and', 'O'], ['Datacentre', 'O'], ['Editions', 'O'], ['is', 'O'], ['up', 'O'], ['six-fold.', 'O']]
+  
+[['Up', 'O'], ['to', 'O'], ['24', 'O'], ['terabytes', 'O'], ['can', 'O'], ['be', 'O'], ['fitted', 'O'], ['per', 'O'], ['machine.', 'O']]
+  
+[['Up', 'O'], ['to', 'O'], ['512', 'O'], ['physical', 'O'], ['logical', 'O'], ['processors', 'O'], ['are', 'O'], ['supported', 'O'], ['in', 'O'], ['Windows', 'O'], ['Server', 'O'], ['2016,', 'O'], ['an', 'O'], ['increase', 'O'], ['from', 'O'], ['320', 'O'], ['in', 'O'], ['Windows', 'O'], ['Server', 'O'], ['2012', 'O'], ['R2.', 'O']]
+  
+[['For', 'O'], ['virtual', 'O'], ['machines,', 'O'], ['Windows', 'O'], ['Server', 'O'], ['2016', 'O'], ['can', 'O'], ['allocate', 'O'], ['up', 'O'], ['to', 'O'], ['16', 'O'], ['TB', 'O'], ['each,', 'O'], ['a', 'O'], ['16-fold', 'O'], ['increase', 'O'], ['compared', 'O'], ['to', 'O'], ['the', 'O'], ['current', 'O'], ['operating', 'O'], ['system,', 'O'], ['and', 'O'], ['240', 'O'], ['virtual', 'O'], ['processors', 'O'], ['per', 'O'], ['VM,', 'O'], ['up', 'O'], ['from', 'O'], ['64', 'O'], ['now.', 'O']]
+  
+[['In', 'O'], ['comparison,', 'O'], ['the', 'O'], ['Linux', 'O'], ['operating', 'O'], ['system', 'O'], ['kernel', 'O'], ['can', 'O'], ['directly', 'O'], ['map', 'O'], ['up', 'O'], ['to', 'O'], ['64', 'O'], ['TB', 'O'], ['of', 'O'], ['physical', 'O'], ['memory.', 'O']]
+  
+[['Although', 'O'], ['AMD', 'ORGANIZATION'], ['and', 'O'], ['Intel', 'ORGANIZATION'], ['64-bit', 'O'], ['processors', 'O'], ['support', 'O'], ['up', 'O'], ['to', 'O'], ['256', 'O'], ['TB', 'O'], ['of', 'O'], ['physical', 'O'], ['memory,', 'O'], ['current', 'O'], ['electronics', 'O'], ['design', 'O'], ['and', 'O'], ['manufacturing', 'O'], ['limitations', 'O'], ['means', 'O'], ['system', 'O'], ['RAM', 'O'], ['capacities', 'O'], ['above', 'O'], ['1', 'O'], ['TB', 'ORGANIZATION'], ['to', 'O'], ['2', 'O'], ['TB', 'ORGANIZATION'], ['are', 'O'], ['difficult', 'O'], ['to', 'O'], ['achieve.', 'O']]
+  
+[['Woolsey', 'PERSON'], ['also', 'O'], ['said', 'O'], ['the', 'O'], ['Hyper-V', 'O'], ['hypervisor', 'O'], ['(hardware', 'O'], ['abstraction', 'O'], ['layer', 'O'], ['for', 'O'], ['virtualisation)', 'O'], ['in', 'O'], ['Windows', 'O'], ['Server', 'O'], ['2016', 'O'], ['will', 'O'], ['come', 'O'], ['with', 'O'], ['the', 'O'], ['Guarded', 'O'], ['Fabric', 'O'], ['security', 'O'], ['feature.', 'O']]
+  
+[['Guarded', 'O'], ['Fabric', 'O'], ['protects', 'O'], ['virtual', 'O'], ['machines', 'O'], ['from', 'O'], ['being', 'O'], ['stolen', 'O'], ['on', 'O'], ['compromised', 'O'], ['hosts;', 'O'], ['it', 'O'], ['uses', 'O'], ['Bitlocker-encrypted', 'O'], ['Shielded', 'O'], ['VMs', 'O'], ['with', 'O'], ['virtual', 'O'], ['trusted', 'O'], ['platform', 'O'], ['modules', 'O'], ['(TPM)', 'O'], ['that', 'O'], ['can', 'O'], ['only', 'O'], ['run', 'O'], ['on', 'O'], ['healthy', 'O'], ['and', 'O'], ['approved', 'O'], ['hosts', 'O'], ['in', 'O'], ['cloud', 'O'], ['infrastructure.', 'O']]
+  
+[['Hyper-V', 'O'], ['will', 'O'], ['also', 'O'], ['provide', 'O'], ['lightweight', 'O'], ['Windows', 'O'], ['Containers', 'O'], ['for', 'O'], ['application', 'O'], ['virtualisation,', 'O'], ['Woolsey', 'PERSON'], ['said.', 'O']]
+  
+[['Windows', 'O'], ['Server', 'O'], ['2016', 'O'], ['will', 'O'], ['also', 'O'], ['provide', 'O'], ['software-defined', 'O'], ['storage', 'O'], ['(SDS)', 'O'], ['through', 'O'], ['the', 'O'], ['Storage', 'O'], ['Spaces', 'O'], ['Direct', 'O'], ['feature', 'O'], ['for', 'O'], ['hyper-converged,', 'O'], ['networked', 'O'], ['storage', 'O'], ['clusters,', 'O'], ['with', 'O'], ['better', 'O'], ['support', 'O'], ['for', 'O'], ['new', 'O'], ['hardware', 'O'], ['such', 'O'], ['as', 'O'], ['NVMe', 'O'], ['and', 'O'], ['SATA', 'ORGANIZATION'], ['solid', 'O'], ['state', 'O'], ['drives.', 'O']]
+  
+[['Windows', 'O'], ['Server', 'O'], ['is', 'O'], ['currently', 'O'], ['in', 'O'], ['technical', 'O'], ['preview', 'O'], ['and', 'O'], ['is', 'O'], ['expected', 'O'], ['to', 'O'], ['be', 'O'], ['released', 'O'], ['at', 'O'], ['the', 'O'], ['end', 'O'], ['of', 'O'], ['September', 'O'], ['this', 'O'], ['year.', 'O']]
+  
+  
+  
+Article name:  Microsoft's Hololens Isn't Really For Gaming
+Article number:  1
+[["Microsoft's", 'O'], ['Hololens', 'O'], ["Isn't", 'O'], ['Really', 'O'], ['For', 'O'], ['Gaming', 'O'], ['Picking', 'O'], ['up', 'O'], ['where', 'O'], ['Pokemon', 'O'], ['GO', 'O'], ['leaves', 'O'], ['off,', 'O'], ['Microsofts', 'O'], ['Hololens', 'O'], ['delivers', 'O'], ['a', 'O'], ['new', 'O'], ['way', 'O'], ['of', 'O'], ['looking', 'O'], ['at', 'O'], ['the', 'O'], ['world.', 'O']]
+  
+[['Virtual', 'O'], ['reality', 'O'], ['is', 'O'], ['stealing', 'O'], ['the', 'O'], ['headlines', 'O'], ['this', 'O'], ['year', 'O'], ['as', 'O'], ['the', 'O'], ['major', 'O'], ['VR', 'O'], ['headsets', 'O'], ['finally', 'O'], ['hit', 'O'], ['the', 'O'], ['shelves,', 'O'], ['but', 'O'], ['in', 'O'], ['the', 'O'], ['long', 'O'], ['term', 'O'], ['I', 'O'], ['suspect', 'O'], ['augmented', 'O'], ['reality', 'O'], ['will', 'O'], ['have', 'O'], ['a', 'O'], ['greater', 'O'], ['impact', 'O'], ['on', 'O'], ['our', 'O'], ['lives.', 'O']]
+  
+[['VR', 'O'], ['whisks', 'O'], ['you', 'O'], ['away', 'O'], ['to', 'O'], ['a', 'O'], ['fantasy', 'O'], ['land,', 'O'], ['blocking', 'O'], ['out', 'O'], ['the', 'O'], ['real', 'O'], ['world,', 'O'], ['while', 'O'], ['AR', 'O'], ['seamlessly', 'O'], ['blends', 'O'], ['the', 'O'], ['digital', 'O'], ['and', 'O'], ['physical', 'O'], ['realms', 'O'], ['to', 'O'], ['place', 'O'], ['virtual', 'O'], ['objects', 'O'], ['into', 'O'], ['the', 'O'], ['world', 'O'], ['around', 'O'], ['you.', 'O']]
+  
+[['After', 'O'], ['an', 'O'], ['early', 'O'], ['limited', 'O'], ['release', 'O'], ['Hololens', 'PERSON'], ['has', 'O'], ['just', 'O'], ['gone', 'O'], ['on', 'O'], ['sale', 'O'], ['to', 'O'], ['developers', 'O'], ['in', 'O'], ['the', 'O'], ['US', 'LOCATION'], ['and', 'O'], ['Canada', 'LOCATION'], ['for', 'O'], ['US$3000.', 'O']]
+  
+[['Right', 'O'], ['now', 'O'], ['its', 'O'], ['aimed', 'O'], ['at', 'O'], ['business', 'O'], ['users', 'O'], ['and', 'O'], ['Microsoft', 'ORGANIZATION'], ['doesnt', 'O'], ['have', 'O'], ['any', 'O'], ['immediate', 'O'], ['plans', 'O'], ['to', 'O'], ['sell', 'O'], ['it', 'O'], ['to', 'O'], ['the', 'O'], ['general', 'O'], ['public,', 'O'], ['so', 'O'], ['you', 'O'], ['might', 'O'], ['consider', 'O'], ['it', 'O'], ['a', 'O'], ['work', 'O'], ['in', 'O'], ['progress', 'O'], ['compared', 'O'], ['to', 'O'], ['what', 'O'], ['might', 'O'], ['eventually', 'O'], ['be', 'O'], ['offered', 'O'], ['to', 'O'], ['consumers.', 'O']]
+  
+[['Melbourne', 'LOCATION'], ['software', 'O'], ['developer', 'O'], ['Two', 'ORGANIZATION'], ['Bulls', 'ORGANIZATION'], ['was', 'O'], ['one', 'O'], ['of', 'O'], ['the', 'O'], ['first', 'O'], ['in', 'O'], ['Australia', 'LOCATION'], ['to', 'O'], ['get', 'O'], ['its', 'O'], ['hands', 'O'], ['on', 'O'], ['Hololens', 'O'], ['headsets', 'O'], ['and', 'O'], ['prefers', 'O'], ['the', 'O'], ['term', 'O'], ['mixed', 'O'], ['reality', 'O'], ['to', 'O'], ['augmented', 'O'], ['reality', 'O'], ['because', 'O'], ['Hololens', 'O'], ['is', 'O'], ['capable', 'O'], ['of', 'O'], ['doing', 'O'], ['far', 'O'], ['more', 'O'], ['than', 'O'], ['just', 'O'], ['pasting', 'O'], ['graphics', 'O'], ['over', 'O'], ['your', 'O'], ['view', 'O'], ['of', 'O'], ['the', 'O'], ['world.', 'O']]
+  
+[['Pokemon', 'O'], ['GO', 'O'], ['offers', 'O'], ['an', 'O'], ['example', 'O'], ['of', 'O'], ['basic', 'O'], ['augmented', 'O'], ['reality,', 'O'], ['letting', 'O'], ['you', 'O'], ['hold', 'O'], ['up', 'O'], ['your', 'O'], ['phone', 'O'], ['to', 'O'], ['see', 'O'], ['the', 'O'], ['Pokemon', 'O'], ['standing', 'O'], ['before', 'O'], ['you', 'O'], ['in', 'O'], ['the', 'O'], ['real', 'O'], ['world.', 'O']]
+  
+[['If', 'O'], ['the', 'O'], ['game', 'O'], ['was', 'O'], ['designed', 'O'], ['for', 'O'], ['Hololens', 'PERSON'], ['then', 'O'], ['those', 'O'], ['Pokemon', 'O'], ['wouldnt', 'O'], ['just', 'O'], ['be', 'O'], ['pasted', 'O'], ['on', 'O'], ['the', 'O'], ['top,', 'O'], ['youd', 'O'], ['be', 'O'], ['able', 'O'], ['to', 'O'], ['walk', 'O'], ['around', 'O'], ['them', 'O'], ['to', 'O'], ['view', 'O'], ['them', 'O'], ['from', 'O'], ['any', 'O'], ['angle.', 'O']]
+  
+[['Like', 'O'], ['a', 'O'], ['real', 'O'], ['world', 'O'], ['object,', 'O'], ['the', 'O'], ['Pokemon', 'O'], ['would', 'O'], ['appear', 'O'], ['larger', 'O'], ['as', 'O'], ['you', 'O'], ['got', 'O'], ['closer', 'O'], ['to', 'O'], ['it,', 'O'], ['with', 'O'], ['more', 'O'], ['detail,', 'O'], ['and', 'O'], ['you', 'O'], ['could', 'O'], ['reach', 'O'], ['out', 'O'], ['with', 'O'], ['your', 'O'], ['hands', 'O'], ['to', 'O'], ['interact', 'O'], ['with', 'O'], ['it.', 'O']]
+  
+[['Even', 'O'], ['more', 'O'], ['impressive,', 'O'], ['if', 'O'], ['there', 'O'], ['was', 'O'], ['an', 'O'], ['object', 'O'], ['between', 'O'], ['you', 'O'], ['and', 'O'], ['the', 'O'], ['Pokemon,', 'O'], ['such', 'O'], ['as', 'O'], ['a', 'O'], ['tree,', 'O'], ['then', 'O'], ['the', 'O'], ['Pokemon', 'O'], ['would', 'O'], ['seem', 'O'], ['to', 'O'], ['disappear', 'O'], ['from', 'O'], ['view', 'O'], ['behind', 'O'], ['the', 'O'], ['tree', 'O'], ['as', 'O'], ['you', 'O'], ['moved', 'O'], ['around.', 'O']]
+  
+[['All', 'O'], ['this', 'O'], ['spatial', 'O'], ['awareness', 'O'], ['is', 'O'], ['thanks', 'O'], ['to', 'O'], ['several', 'O'], ['cameras', 'O'], ['built', 'O'], ['into', 'O'], ['the', 'O'], ['Hololens', 'O'], ['headset.', 'O']]
+  
+[['It', 'O'], ['uses', 'O'], ['two', 'O'], ['cameras', 'O'], ['and', 'O'], ['an', 'O'], ['infrared', 'O'], ['sensor', 'O'], ['to', 'O'], ['build', 'O'], ['up', 'O'], ['a', 'O'], ['3D', 'O'], ['model', 'O'], ['of', 'O'], ['the', 'O'], ['world', 'O'], ['around', 'O'], ['you', 'O'], ['so', 'O'], ['it', 'O'], ['knows', 'O'], ['the', 'O'], ['dimensions', 'O'], ['of', 'O'], ['the', 'O'], ['room', 'O'], ['and', 'O'], ['location', 'O'], ['of', 'O'], ['objects.', 'O']]
+  
+[['In', 'O'], ['this', 'O'], ['way', 'O'], ['its', 'O'], ['similar', 'O'], ['to', 'O'], ['Googles', 'O'], ['Project', 'O'], ['Tango', 'O'], ['AR', 'O'], ['tablets', 'O'], ['which', 'O'], ['were', 'O'], ['on', 'O'], ['show', 'O'], ['at', 'O'], ['the', 'O'], ['Google', 'ORGANIZATION'], ['IO', 'O'], ['developer', 'O'], ['conference', 'O'], ['back', 'O'], ['in', 'O'], ['May.', 'LOCATION']]
+  
+[['Microsofts', 'O'], ['Hololens', 'O'], ['headset', 'O'], ['is', 'O'], ['surprisingly', 'O'], ['comfortable', 'O'], ['considering', 'O'], ['its', 'O'], ['bulk,', 'O'], ['and', 'O'], ['it', 'O'], ['isnt', 'O'], ['as', 'O'], ['front-heavy', 'O'], ['as', 'O'], ['something', 'O'], ['like', 'O'], ['the', 'O'], ['Oculus', 'O'], ['Rift', 'O'], ['VR', 'O'], ['headset', 'O'], ['used', 'O'], ['by', 'O'], ['Melbournes', 'O'], ['Zero', 'O'], ['Latency', 'O'], ['VR', 'O'], ['system.', 'O']]
+  
+[['The', 'O'], ['dual-band', 'O'], ['design', 'O'], ['helps', 'O'], ['distribute', 'O'], ['the', 'O'], ['pressure', 'O'], ['of', 'O'], ['the', 'O'], ['headset', 'O'], ['across', 'O'], ['your', 'O'], ['head,', 'O'], ['with', 'O'], ['a', 'O'], ['thumb', 'O'], ['wheel', 'O'], ['to', 'O'], ['tighten', 'O'], ['the', 'O'], ['main', 'O'], ['headband', 'O'], ['at', 'O'], ['the', 'O'], ['back.', 'O']]
+  
+[['On', 'O'], ['one', 'O'], ['side', 'O'], ['youve', 'O'], ['got', 'O'], ['brightness', 'O'], ['controls', 'O'], ['above', 'O'], ['your', 'O'], ['ear,', 'O'], ['on', 'O'], ['the', 'O'], ['other', 'O'], ['side', 'O'], ['volume', 'O'], ['controls', 'O'], ['for', 'O'], ['the', 'O'], ['built-in', 'O'], ['surround', 'O'], ['sound', 'O'], ['speakers.', 'O']]
+  
+[['The', 'O'], ['computer-generated', 'O'], ['objects', 'O'], ['are', 'O'], ['projected', 'O'], ['onto', 'O'], ['the', 'O'], ['lenses', 'O'], ['in', 'O'], ['front', 'O'], ['of', 'O'], ['your', 'O'], ['eyes,', 'O'], ['offering', 'O'], ['a', 'O'], ['slightly', 'O'], ['different', 'O'], ['view', 'O'], ['to', 'O'], ['each', 'O'], ['eye', 'O'], ['for', 'O'], ['a', 'O'], ['true', 'O'], ['sense', 'O'], ['of', 'O'], ['depth.', 'O']]
+  
+[['Those', 'O'], ['projected', 'O'], ['images', 'O'], ['line', 'O'], ['up', 'O'], ['perfectly', 'O'], ['with', 'O'], ['your', 'O'], ['view', 'O'], ['of', 'O'], ['the', 'O'], ['real', 'O'], ['world', 'O'], ['to', 'O'], ['create', 'O'], ['the', 'O'], ['augmented', 'O'], ['effect.', 'O']]
+  
+[['Two', 'O'], ['more', 'O'], ['cameras', 'O'], ['in', 'O'], ['the', 'O'], ['headset', 'O'], ['record', 'O'], ['your', 'O'], ['view', 'O'], ['of', 'O'], ['the', 'O'], ['world,', 'O'], ['complete', 'O'], ['with', 'O'], ['AR', 'O'], ['effects,', 'O'], ['and', 'O'], ['can', 'O'], ['send', 'O'], ['it', 'O'], ['to', 'O'], ['a', 'O'], ['computer', 'O'], ['via', 'O'], ['Wi-Fi.', 'O']]
+  
+[['Unlike', 'O'], ['most', 'O'], ['VR', 'O'], ['headsets,', 'O'], ['the', 'O'], ['Hololens', 'LOCATION'], ['is', 'O'], ['completely', 'O'], ['wireless', 'O'], ['and', 'O'], ['self-sufficient', 'O'], ['as', 'O'], ['it', 'O'], ['has', 'O'], ['a', 'O'], ['tiny', 'O'], ['built-in', 'O'], ['computer', 'O'], ['running', 'O'], ['Windows', 'O'], ['10.', 'O']]
+  
+[['You', 'O'], ['can', 'O'], ['walk', 'O'], ['around', 'O'], ['the', 'O'], ['room', 'O'], ['without', 'O'], ['the', 'O'], ['need', 'O'], ['to', 'O'], ['be', 'O'], ['tethered', 'O'], ['to', 'O'], ['a', 'O'], ['computer', 'O'], ['or', 'O'], ['rely', 'O'], ['on', 'O'], ['external', 'O'], ['tracking', 'O'], ['cameras,', 'O'], ['offering', 'O'], ['a', 'O'], ['more', 'O'], ['engaging', 'O'], ['experience', 'O'], ['than', 'O'], ['VR', 'O'], ['headsets', 'O'], ['which', 'O'], ['require', 'O'], ['you', 'O'], ['to', 'O'], ['stand', 'O'], ['still.', 'O']]
+  
+[['The', 'O'], ['headsets', 'O'], ['cameras', 'O'], ['are', 'O'], ['accurate', 'O'], ['enough', 'O'], ['that', 'O'], ['they', 'O'], ['can', 'O'], ['track', 'O'], ['your', 'O'], ['hands,', 'O'], ['letting', 'O'], ['you', 'O'], ['reach', 'O'], ['out', 'O'], ['to', 'O'], ['interact', 'O'], ['with', 'O'], ['objects', 'O'], ['as', 'O'], ['well', 'O'], ['as', 'O'], ['use', 'O'], ['gesture-based', 'O'], ['controls', 'O'], ['similar', 'O'], ['to', 'O'], ['Intels', 'O'], ['RealSense', 'O'], ['3D', 'O'], ['cameras', 'O'], ['which', 'O'], ['will', 'O'], ['be', 'O'], ['built', 'O'], ['into', 'O'], ['its', 'O'], ['upcoming', 'O'], ['Project', 'O'], ['Alloy', 'O'], ['headset.', 'O']]
+  
+[['I', 'O'], ['first', 'O'], ['donned', 'O'], ['the', 'O'], ['Hololens', 'O'], ['headset', 'O'], ['to', 'O'], ['discover', 'O'], ['a', 'O'], ['large', 'O'], ['cricket', 'O'], ['ground', 'O'], ['floating', 'O'], ['in', 'O'], ['the', 'O'], ['middle', 'O'], ['of', 'O'], ['the', 'O'], ['Two', 'ORGANIZATION'], ['Bulls', 'ORGANIZATION'], ['open', 'O'], ['plan', 'O'], ['office', 'O'], ['in', 'O'], ['Collingwood.', 'LOCATION']]
+  
+[['Roughly', 'O'], ['five', 'O'], ['feet', 'O'], ['across,', 'O'], ['the', 'O'], ['cricket', 'O'], ['ground', 'O'], ['remains', 'O'], ['perfectly', 'O'], ['aligned', 'O'], ['with', 'O'], ['the', 'O'], ['floor', 'O'], ['and', 'O'], ['doesnt', 'O'], ['waver', 'O'], ['as', 'O'], ['you', 'O'], ['walk', 'O'], ['around', 'O'], ['to', 'O'], ['view', 'O'], ['it', 'O'], ['from', 'O'], ['every', 'O'], ['angle.', 'O']]
+  
+[['Looking', 'O'], ['down', 'O'], ['at', 'O'], ['the', 'O'], ['cricket', 'O'], ['ground,', 'O'], ['I', 'O'], ['could', 'O'], ['watch', 'O'], ['the', 'O'], ['bowler', 'O'], ['run', 'O'], ['up', 'O'], ['to', 'O'], ['the', 'O'], ['crease', 'O'], ['and', 'O'], ['then', 'O'], ['flick', 'O'], ['my', 'O'], ['finger', 'O'], ['to', 'O'], ['swing', 'O'], ['the', 'O'], ['bat', 'O'], ['and', 'O'], ['hit', 'O'], ['the', 'O'], ['ball.', 'O']]
+  
+[['After', 'O'], ['a', 'O'], ['few', 'O'], ['tidy', 'O'], ['singles', 'O'], ['I', 'O'], ['managed', 'O'], ['to', 'O'], ['smash', 'O'], ['the', 'O'], ['ball', 'O'], ['out', 'O'], ['of', 'O'], ['the', 'O'], ['ground,', 'O'], ['watching', 'O'], ['it', 'O'], ['sail', 'O'], ['through', 'O'], ['the', 'O'], ['air', 'O'], ['and', 'O'], ['then', 'O'], ['bounce', 'O'], ['on', 'O'], ['the', 'O'], ['office', 'O'], ['floor', 'O'], ['and', 'O'], ['keep', 'O'], ['rolling.', 'O']]
+  
+[['Wherever', 'O'], ['I', 'O'], ['stood,', 'O'], ['the', 'O'], ['digital', 'O'], ['and', 'O'], ['physical', 'O'], ['realms', 'O'], ['lined', 'O'], ['up', 'O'], ['perfectly', 'O'], ['allowing', 'O'], ['the', 'O'], ['pretend', 'O'], ['ball', 'O'], ['to', 'O'], ['roll', 'O'], ['across', 'O'], ['the', 'O'], ['real', 'O'], ['floor.', 'O']]
+  
+[['You', 'O'], ['can', 'O'], ['adjust', 'O'], ['the', 'O'], ['brightness', 'O'], ['of', 'O'], ['the', 'O'], ['augmented', 'O'], ['content', 'O'], ['but', 'O'], ['in', 'O'], ['this', 'O'], ['sunlit', 'O'], ['office', 'O'], ['the', 'O'], ['stadium', 'O'], ['looked', 'O'], ['slightly', 'O'], ['transparent', 'O'], ['(more', 'O'], ['so', 'O'], ['than', 'O'], ['in', 'O'], ['the', 'O'], ['screen', 'O'], ['shots),', 'O'], ['yet', 'O'], ['still', 'O'], ['very', 'O'], ['believable.', 'O']]
+  
+[['In', 'O'], ['a', 'O'], ['darker', 'O'], ['room', 'O'], ['objects', 'O'], ['appear', 'O'], ['more', 'O'], ['solid.', 'O']]
+  
+[['Unlike', 'O'], ['VR,', 'O'], ['you', 'O'], ['can', 'O'], ['still', 'O'], ['see', 'O'], ['the', 'O'], ['real', 'O'], ['world', 'O'], ['and', 'O'], ['interact', 'O'], ['with', 'O'], ['people', 'O'], ['around', 'O'], ['you,', 'O'], ['so', 'O'], ['theres', 'O'], ['no', 'O'], ['sense', 'O'], ['of', 'O'], ['isolation', 'O'], ['or', 'O'], ['disorientation.', 'O']]
+  
+[['Looking', 'O'], ['around', 'O'], ['the', 'O'], ['office', 'O'], ['I', 'O'], ['could', 'O'], ['see', 'O'], ['the', 'O'], ['Earth', 'LOCATION'], ['and', 'O'], ['Moon', 'O'], ['floating', 'O'], ['before', 'O'], ['me,', 'O'], ['along', 'O'], ['with', 'O'], ['animals', 'O'], ['sitting', 'O'], ['on', 'O'], ['the', 'O'], ['floor.', 'O']]
+  
+[['I', 'O'], ['could', 'O'], ['reach', 'O'], ['out', 'O'], ['with', 'O'], ['my', 'O'], ['hands', 'O'], ['and', 'O'], ['touch', 'O'], ['these', 'O'], ['objects,', 'O'], ['pinching', 'O'], ['their', 'O'], ['corners', 'O'], ['to', 'O'], ['manipulate', 'O'], ['their', 'O'], ['size', 'O'], ['and', 'O'], ['orientation.', 'O']]
+  
+[['Each', 'O'], ['object', 'O'], ['has', 'O'], ['small', 'O'], ['menus', 'O'], ['on', 'O'], ['the', 'O'], ['side,', 'O'], ['so', 'O'], ['you', 'O'], ['can', 'O'], ['look', 'O'], ['at', 'O'], ['a', 'O'], ['menu', 'O'], ['option', 'O'], ['assisted', 'O'], ['by', 'O'], ['the', 'O'], ['headsets', 'O'], ['built-in', 'O'], ['pupil', 'O'], ['tracking', 'O'], ['and', 'O'], ['tap', 'O'], ['your', 'O'], ['finger', 'O'], ['on', 'O'], ['your', 'O'], ['thumb', 'O'], ['to', 'O'], ['select', 'O'], ['it', 'O'], ['just', 'O'], ['like', 'O'], ['a', 'O'], ['mouse', 'O'], ['click.', 'O']]
+  
+[['As', 'O'], ['an', 'O'], ['alternative', 'O'], ['to', 'O'], ['tapping', 'O'], ['your', 'O'], ['thumb,', 'O'], ['the', 'O'], ['headset', 'O'], ['also', 'O'], ['supports', 'O'], ['a', 'O'], ['one-button', 'O'], ['wireless', 'O'], ['remote', 'O'], ['control', 'O'], ['which', 'O'], ['acts', 'O'], ['like', 'O'], ['a', 'O'], ['mouse', 'O'], ['click.', 'O']]
+  
+[['Just', 'O'], ['look', 'O'], ['at', 'O'], ['what', 'O'], ['you', 'O'], ['want', 'O'], ['to', 'O'], ['select', 'O'], ['and', 'O'], ['then', 'O'], ['press', 'O'], ['the', 'O'], ['button.', 'O']]
+  
+[['This', 'O'], ['might', 'O'], ['seem', 'O'], ['like', 'O'], ['cheating', 'O'], ['but', 'O'], ['at', 'O'], ['times', 'O'], ['it', 'O'], ['feels', 'O'], ['more', 'O'], ['practical,', 'O'], ['especially', 'O'], ['as', 'O'], ['it', 'O'], ['means', 'O'], ['you', 'O'], ['dont', 'O'], ['need', 'O'], ['to', 'O'], ['hold', 'O'], ['your', 'O'], ['hand', 'O'], ['up', 'O'], ['so', 'O'], ['the', 'O'], ['headsets', 'O'], ['cameras', 'O'], ['can', 'O'], ['see', 'O'], ['your', 'O'], ['gestures.', 'O']]
+  
+[['The', 'O'], ['bloom', 'O'], ['gesture', 'O'], ['opening', 'O'], ['your', 'O'], ['hand', 'O'], ['upwards', 'O'], ['like', 'O'], ['a', 'O'], ['flower', 'O'], ['opening', 'O'], ['its', 'O'], ['petals', 'O'], ['calls', 'O'], ['up', 'O'], ['the', 'O'], ['Windows', 'O'], ['10', 'O'], ['start', 'O'], ['menu.', 'O']]
+  
+[['From', 'O'], ['here', 'O'], ['you', 'O'], ['can', 'O'], ['take', 'O'], ['screen', 'O'], ['shots,', 'O'], ['launch', 'O'], ['apps', 'O'], ['and', 'O'], ['even', 'O'], ['dive', 'O'], ['into', 'O'], ['the', 'O'], ['Windows', 'O'], ['store', 'O'], ['to', 'O'], ['download', 'O'], ['AR', 'O'], ['content.', 'O']]
+  
+[['The', 'O'], ['headset', 'O'], ['also', 'O'], ['supports', 'O'], ['voice', 'O'], ['commands.', 'O']]
+  
+[['One', 'O'], ['limitation', 'O'], ['is', 'O'], ['that', 'O'], ['the', 'O'], ['Hololens', 'LOCATION'], ['has', 'O'], ['a', 'O'], ['relatively', 'O'], ['narrow', 'O'], ['field', 'O'], ['of', 'O'], ['view,', 'O'], ['you', 'O'], ['can', 'O'], ['see', 'O'], ['augmented', 'O'], ['objects', 'O'], ['straight', 'O'], ['ahead', 'O'], ['but', 'O'], ['they', 'O'], ['dont', 'O'], ['extend', 'O'], ['to', 'O'], ['your', 'O'], ['peripheral', 'O'], ['vision', 'O'], ['its', 'O'], ['roughly', 'O'], ['a', 'O'], ['30', 'O'], ['to', 'O'], ['40', 'O'], ['degree', 'O'], ['horizontal', 'O'], ['field', 'O'], ['of', 'O'], ['view.', 'O']]
+  
+[['More', 'O'], ['frustrating', 'O'], ['at', 'O'], ['first', 'O'], ['is', 'O'], ['that', 'O'], ['it', 'O'], ['has', 'O'], ['limited', 'O'], ['vertical', 'O'], ['field', 'O'], ['of', 'O'], ['view', 'O'], ['and', 'O'], ['if', 'O'], ['you', 'O'], ['dont', 'O'], ['get', 'O'], ['the', 'O'], ['headset', 'O'], ['to', 'O'], ['sit', 'O'], ['correctly', 'O'], ['on', 'O'], ['your', 'O'], ['head', 'O'], ['it', 'O'], ['crops', 'O'], ['off', 'O'], ['the', 'O'], ['very', 'O'], ['top', 'O'], ['of', 'O'], ['the', 'O'], ['augmented', 'O'], ['display.', 'O']]
+  
+[['When', 'O'], ['you', 'O'], ['look', 'O'], ['closer', 'O'], ['at', 'O'], ['the', 'O'], ['Hololens', 'O'], ['design', 'O'], ['the', 'O'], ['reasons', 'O'], ['for', 'O'], ['these', 'O'], ['limitations', 'O'], ['become', 'O'], ['clear.', 'O']]
+  
+[['The', 'O'], ['headset', 'O'], ['isnt', 'O'], ['projecting', 'O'], ['augmented', 'O'], ['content', 'O'], ['onto', 'O'], ['the', 'O'], ['entire', 'O'], ['visor,', 'O'], ['only', 'O'], ['on', 'O'], ['to', 'O'], ['small', 'O'], ['rectangles', 'O'], ['similar', 'O'], ['to', 'O'], ['bifocal', 'O'], ['glasses', 'O'], ['but', 'O'], ['located', 'O'], ['in', 'O'], ['the', 'O'], ['centre', 'O'], ['of', 'O'], ['your', 'O'], ['vision', 'O'], ['(you', 'O'], ['can', 'O'], ['see', 'O'], ['this', 'O'], ['in', 'O'], ['the', 'O'], ['photo', 'O'], ['above).', 'O']]
+  
+[['You', 'O'], ['need', 'O'], ['to', 'O'], ['be', 'O'], ['looking', 'O'], ['through', 'O'], ['these', 'O'], ['small', 'O'], ['areas', 'O'], ['to', 'O'], ['see', 'O'], ['the', 'O'], ['augmented', 'O'], ['content.', 'O']]
+  
+[['If', 'O'], ['the', 'O'], ['headset', 'O'], ['sits', 'O'], ['too', 'O'], ['low', 'O'], ['on', 'O'], ['your', 'O'], ['face', 'O'], ['you', 'O'], ['end', 'O'], ['up', 'O'], ['looking', 'O'], ['over', 'O'], ['the', 'O'], ['top', 'O'], ['of', 'O'], ['these', 'O'], ['areas,', 'O'], ['as', 'O'], ['if', 'O'], ['your', 'O'], ['reading', 'O'], ['glasses', 'O'], ['had', 'O'], ['slipped', 'O'], ['down', 'O'], ['your', 'O'], ['nose.', 'O']]
+  
+[['This', 'O'], ['is', 'O'], ['frustrating', 'O'], ['at', 'O'], ['first', 'O'], ['but', 'O'], ['not', 'O'], ['a', 'O'], ['deal-breaker', 'O'], ['and', 'O'], ['you', 'O'], ['soon', 'O'], ['forget', 'O'], ['about', 'O'], ['it', 'O'], ['once', 'O'], ['you', 'O'], ['get', 'O'], ['the', 'O'], ['headset', 'O'], ['to', 'O'], ['sit', 'O'], ['in', 'O'], ['the', 'O'], ['right', 'O'], ['spot.', 'O']]
+  
+[['The', 'O'], ['field', 'O'], ['of', 'O'], ['view', 'O'], ['issue', 'O'], ['only', 'O'], ['becomes', 'O'], ['noticeable', 'O'], ['again', 'O'], ['when', 'O'], ['youre', 'O'], ['dealing', 'O'], ['with', 'O'], ['fast-moving', 'O'], ['action', 'O'], ['such', 'O'], ['as', 'O'], ['games', 'O'], ['which', 'O'], ['require', 'O'], ['you', 'O'], ['to', 'O'], ['look', 'O'], ['quickly', 'O'], ['around', 'O'], ['the', 'O'], ['room.', 'O']]
+  
+[['Stepping', 'O'], ['into', 'O'], ['a', 'O'], ['small', 'O'], ['office', 'O'], ['we', 'O'], ['fired', 'O'], ['up', 'O'], ['Microsofts', 'O'], ['Robo', 'O'], ['Raid', 'O'], ['first', 'O'], ['person', 'O'], ['AR', 'O'], ['shooter', 'O'], ['with', 'O'], ['flying', 'O'], ['robots', 'O'], ['bursting', 'O'], ['through', 'O'], ['the', 'O'], ['walls.', 'O']]
+  
+[['With', 'O'], ['target', 'O'], ['cross-hairs', 'O'], ['overlayed', 'O'], ['on', 'O'], ['my', 'O'], ['view', 'O'], ['of', 'O'], ['the', 'O'], ['room', 'O'], ['I', 'O'], ['could', 'O'], ['line', 'O'], ['up', 'O'], ['the', 'O'], ['robots', 'O'], ['by', 'O'], ['looking', 'O'], ['at', 'O'], ['them', 'O'], ['and', 'O'], ['then', 'O'], ['blast', 'O'], ['them', 'O'], ['out', 'O'], ['of', 'O'], ['the', 'O'], ['air,', 'O'], ['using', 'O'], ['the', 'O'], ['remote', 'O'], ['in', 'O'], ['my', 'O'], ['hand', 'O'], ['to', 'O'], ['fire.', 'O']]
+  
+[['At', 'O'], ['this', 'O'], ['point', 'O'], ['the', 'O'], ['limited', 'O'], ['field', 'O'], ['of', 'O'], ['view', 'O'], ['made', 'O'], ['itself', 'O'], ['felt', 'O'], ['again,', 'O'], ['as', 'O'], ['I', 'O'], ['could', 'O'], ['hear', 'O'], ['the', 'O'], ['robots', 'O'], ['breaking', 'O'], ['through', 'O'], ['the', 'O'], ['different', 'O'], ['walls', 'O'], ['but', 'O'], ['had', 'O'], ['to', 'O'], ['keep', 'O'], ['turning', 'O'], ['my', 'O'], ['head', 'O'], ['because', 'O'], ['I', 'O'], ['couldnt', 'O'], ['glance', 'O'], ['at', 'O'], ['them', 'O'], ['in', 'O'], ['my', 'O'], ['peripheral', 'O'], ['vision.', 'O']]
+  
+[['If', 'O'], ['Microsoft', 'ORGANIZATION'], ['was', 'O'], ['actively', 'O'], ['pushing', 'O'], ['Hololens', 'PERSON'], ['as', 'O'], ['a', 'O'], ['gaming', 'O'], ['platform', 'O'], ['Id', 'O'], ['be', 'O'], ['more', 'O'], ['critical,', 'O'], ['but', 'O'], ['its', 'O'], ['easier', 'O'], ['to', 'O'], ['forgive', 'O'], ['the', 'O'], ['field', 'O'], ['of', 'O'], ['view', 'O'], ['limitations', 'O'], ['knowing', 'O'], ['this', 'O'], ['isnt', 'O'], ['intended', 'O'], ['to', 'O'], ['be', 'O'], ['a', 'O'], ['consumer-grade', 'O'], ['gaming', 'O'], ['device.', 'O']]
+  
+[['Turns', 'O'], ['out', 'O'], ['Im', 'O'], ['dynamite', 'O'], ['with', 'O'], ['a', 'O'], ['laser', 'O'], ['beam,', 'O'], ['testament', 'O'], ['to', 'O'], ['the', 'O'], ['headsets', 'O'], ['accurate', 'O'], ['tracking', 'O'], ['which', 'O'], ['ensured', 'O'], ['the', 'O'], ['real', 'O'], ['and', 'O'], ['virtual', 'O'], ['content', 'O'], ['remained', 'O'], ['in', 'O'], ['alignment.', 'O']]
+  
+[['I', 'O'], ['was', 'O'], ['also', 'O'], ['assisted', 'O'], ['by', 'O'], ['the', 'O'], ['headsets', 'O'], ['built-in', 'O'], ['accelerometer', 'O'], ['and', 'O'], ['gyroscope', 'O'], ['which', 'O'], ['let', 'O'], ['me', 'O'], ['duck', 'O'], ['and', 'O'], ['weave', 'O'], ['as', 'O'], ['my', 'O'], ['flying', 'O'], ['foes', 'O'], ['returned', 'O'], ['fire.', 'O']]
+  
+[['Miss', 'O'], ['your', 'O'], ['target', 'O'], ['and', 'O'], ['you', 'O'], ['blow', 'O'], ['a', 'O'], ['virtual', 'O'], ['hole', 'O'], ['in', 'O'], ['the', 'O'], ['real', 'O'], ['wall,', 'O'], ['exposing', 'O'], ['the', 'O'], ['beams', 'O'], ['beneath.', 'O']]
+  
+[['These', 'O'], ['holes', 'O'], ['are', 'O'], ['more', 'O'], ['than', 'O'], ['flat', 'O'], ['projections,', 'O'], ['you', 'O'], ['can', 'O'], ['walk', 'O'], ['across', 'O'], ['the', 'O'], ['room', 'O'], ['and', 'O'], ['peer', 'O'], ['into', 'O'], ['the', 'O'], ['hole', 'O'], ['from', 'O'], ['any', 'O'], ['angle.', 'O']]
+  
+[['Used', 'O'], ['in', 'O'], ['any', 'O'], ['empty', 'O'], ['room', 'O'], ['with', 'O'], ['white', 'O'], ['walls,', 'O'], ['the', 'O'], ['Hololens', 'PERSON'], ['could', 'O'], ['certainly', 'O'], ['offer', 'O'], ['a', 'O'], ['holodeck-style', 'O'], ['VR', 'O'], ['experience', 'O'], ['and', 'O'], ['you', 'O'], ['can', 'O'], ['create', 'O'], ['AR', 'O'], ['content', 'O'], ['using', 'O'], ['the', 'O'], ['same', 'O'], ['Unity', 'O'], ['programming', 'O'], ['environment', 'O'], ['popular', 'O'], ['with', 'O'], ['VR', 'O'], ['developers.', 'O']]
+  
+[['When', 'O'], ['will', 'O'], ['we', 'O'], ['see', 'O'], ['it?', 'O']]
+  
+[['Two', 'O'], ['Bulls', 'O'], ['is', 'O'], ['developing', 'O'], ['commercial', 'O'], ['Hololens', 'O'], ['applications', 'O'], ['for', 'O'], ['several', 'O'], ['Australian', 'O'], ['clients,', 'O'], ['including', 'O'], ['businesses', 'O'], ['in', 'O'], ['the', 'O'], ['construction', 'O'], ['and', 'O'], ['retail', 'O'], ['sectors,', 'O'], ['says', 'O'], ['Chief', 'O'], ['Operating', 'O'], ['Officer,', 'O'], ['Evan', 'PERSON'], ['Davey.', 'PERSON']]
+  
+[['He', 'O'], ['doesnt', 'O'], ['expect', 'O'], ['this', 'O'], ['first-generation', 'O'], ['Hololens', 'PERSON'], ['will', 'O'], ['ever', 'O'], ['be', 'O'], ['targeted', 'O'], ['at', 'O'], ['consumers,', 'O'], ['but', 'O'], ['Microsoft', 'ORGANIZATION'], ['may', 'O'], ['broaden', 'O'], ['its', 'O'], ['horizons', 'O'], ['down', 'O'], ['the', 'O'], ['track', 'O'], ['as', 'O'], ['it', 'O'], ['hones', 'O'], ['the', 'O'], ['design.', 'O']]
+  
+[['The', 'O'], ['first', 'O'], ['time', 'O'], ['your', 'O'], ['average', 'O'], ['person', 'O'], ['experiences', 'O'], ['Hololens', 'O'], ['it', 'O'], ['will', 'O'], ['probably', 'O'], ['be', 'O'], ['in', 'O'], ['a', 'O'], ['retail', 'O'], ['store', 'O'], ['where', 'O'], ['theyre', 'O'], ['simply', 'O'], ['trying', 'O'], ['to', 'O'], ['sell', 'O'], ['you', 'O'], ['something', 'O'], ['else', 'O'], ['perhaps', 'O'], ['road-testing', 'O'], ['a', 'O'], ['kitchen', 'O'], ['renovation', 'O'], ['or', 'O'], ['seeing', 'O'], ['how', 'O'], ['a', 'O'], ['new', 'O'], ['couch', 'O'], ['will', 'O'], ['look', 'O'], ['in', 'O'], ['your', 'O'], ['lounge', 'O'], ['room,', 'O'], ['Davey', 'O'], ['says.', 'O']]
+  
+[['Right', 'O'], ['now', 'O'], ['the', 'O'], ['hype', 'O'], ['is', 'O'], ['around', 'O'], ['virtual', 'O'], ['reality', 'O'], ['and', 'O'], ['a', 'O'], ['new', 'O'], ['generation', 'O'], ['of', 'O'], ['games', 'O'], ['but', 'O'], ['in', 'O'], ['the', 'O'], ['long-term', 'O'], ['augmented', 'O'], ['realitys', 'O'], ['practical', 'O'], ['real-world', 'O'], ['applications', 'O'], ['might', 'O'], ['make', 'O'], ['it', 'O'], ['the', 'O'], ['real', 'O'], ['game-changer.', 'O']]
+  
+[['Hololens', 'O'], ['is', 'O'], ['just', 'O'], ['a', 'O'], ['taste', 'O'], ['of', 'O'], ['whats', 'O'], ['to', 'O'], ['come.', 'O']]
+  
+[['This', 'O'], ['story', 'O'], ['originally', 'O'], ['appeared', 'O'], ['on', 'O'], ['the', 'O'], ['Sydney', 'LOCATION'], ['Morning', 'O'], ['Herald', 'O']]
+  
+  
+  
+Article name:  Protecting Critical Data in Virtual Environments
+Article number:  2
+[['Protecting', 'O'], ['Critical', 'O'], ['Data', 'O'], ['in', 'O'], ['Virtual', 'O'], ['Environments', 'O'], ['Todays', 'O'], ['virtual', 'O'], ['infrastructure', 'O'], ['and', 'O'], ['server', 'O'], ['administrators', 'O'], ['are', 'O'], ['managing', 'O'], ['more', 'O'], ['data-intensive', 'O'], ['workloads', 'O'], ['than', 'O'], ['ever', 'O'], ['beforemeanwhile,', 'O'], ['data', 'O'], ['management', 'O'], ['tasks', 'O'], ['are', 'O'], ['also', 'O'], ['more', 'O'], ['time-consuming', 'O'], ['and', 'O'], ['increasingly', 'O'], ['complex.', 'O']]
+  
+[['VMware', 'ORGANIZATION'], ['and', 'O'], ['Hyper-V', 'O'], ['admins', 'O'], ['need', 'O'], ['to', 'O'], ['know', 'O'], ['their', 'O'], ['data', 'O'], ['is', 'O'], ['properly', 'O'], ['protected,', 'O'], ['but', 'O'], ['requirements', 'O'], ['vary', 'O'], ['widely,', 'O'], ['with', 'O'], ['some', 'O'], ['VMs', 'O'], ['managing', 'O'], ['little', 'O'], ['or', 'O'], ['no', 'O'], ['data', 'O'], ['and', 'O'], ['others', 'O'], ['hosting', 'O'], ['core', 'O'], ['business', 'O'], ['applications.', 'O']]
+  
+[['Access', 'O'], ['this', 'O'], ['paper', 'O'], ['to', 'O'], ['automate', 'O'], ['data', 'O'], ['protection', 'O'], ['for', 'O'], ['all', 'O'], ['VM', 'O'], ['and', 'O'], ['server', 'O'], ['environments.', 'O']]
+  
+[['Take', 'O'], ['advantage', 'O'], ['of', 'O'], ['a', 'O'], ['single', 'O'], ['platform', 'O'], ['for', 'O'], ['virtual,', 'O'], ['physical,', 'O'], ['software-defined', 'O'], ['and', 'O'], ['cloud', 'O'], ['backups', 'O'], ['that', 'O'], ['will:', 'O']]
+  
+  
+  
+Article name:  Robot diagnoses rare cancer missed by doctors
+Article number:  3
+[['Robot', 'O'], ['diagnoses', 'O'], ['rare', 'O'], ['cancer', 'O'], ['missed', 'O'], ['by', 'O'], ['doctors', 'O'], ["'Japanese", 'O'], ['doctors', 'O'], ['have', 'O'], ['used', 'O'], ['artificial', 'O'], ['intelligence', 'O'], ['to', 'O'], ['detect', 'O'], ['a', 'O'], ['rare', 'O'], ['form', 'O'], ['of', 'O'], ['leukemia', 'O'], ['in', 'O'], ['a', 'O'], ['60-year-old', 'O'], ['woman', 'O'], ['who', 'O'], ['was', 'O'], ['not', 'O'], ['responding', 'O'], ['to', 'O'], ['treatment', 'O'], ['after', 'O'], ['an', 'O'], ['initial', 'O'], ['diagnosis', 'O'], ['of', 'O'], ['acute', 'O'], ['myeloid', 'O'], ['leukemia.', 'O']]
+  
+[['The', 'O'], ['medical', 'O'], ['team', 'O'], ['credits', 'O'], ['the', 'O'], ['super', 'O'], ['intelligent', 'O'], ['computer', 'O'], ['IBM', 'ORGANIZATION'], ['Watson', 'ORGANIZATION'], ['for', 'O'], ['saving', 'O'], ['the', 'O'], ['patients', 'O'], ['life.', 'O']]
+  
+[['The', 'O'], ['University', 'ORGANIZATION'], ['of', 'ORGANIZATION'], ["Tokyo's", 'ORGANIZATION'], ['Institute', 'ORGANIZATION'], ['of', 'ORGANIZATION'], ['Medical', 'ORGANIZATION'], ['Science', 'ORGANIZATION'], ['reports', 'O'], ['it', 'O'], ['successfully', 'O'], ['employed', 'O'], ['the', 'O'], ['new', 'O'], ['method', 'O'], ['of', 'O'], ['diagnosis,', 'O'], ['which', 'O'], ['includes', 'O'], ['a', 'O'], ['computer', 'O'], ['program', 'O'], ['capable', 'O'], ['of', 'O'], ['analysing', 'O'], ['a', 'O'], ['huge', 'O'], ['volume', 'O'], ['of', 'O'], ['medical', 'O'], ['data.', 'O']]
+  
+[['The', 'O'], ['system', 'O'], ['concluded', 'O'], ['that', 'O'], ['the', 'O'], ['patient', 'O'], ['suffered', 'O'], ['from', 'O'], ['a', 'O'], ['rare', 'O'], ['type', 'O'], ['of', 'O'], ['leukemia', 'O'], ['after', 'O'], ['her', 'O'], ['genetic', 'O'], ['information', 'O'], ['was', 'O'], ['compared', 'O'], ['with', 'O'], ['20', 'O'], ['million', 'O'], ['clinical', 'O'], ['oncology', 'O'], ['studies.', 'O']]
+  
+[['The', 'O'], ['patient', 'O'], ['is', 'O'], ['now', 'O'], ['receiving', 'O'], ['appropriate', 'O'], ['treatment.', 'O']]
+  
+[['According', 'O'], ['to', 'O'], ['technology', 'O'], ['website', 'O'], ['The', 'O'], ['Memo,', 'O'], ['artificial', 'O'], ['intelligence', 'O'], ['like', 'O'], ['Watson', 'PERSON'], ['will', 'O'], ['be', 'O'], ['one', 'O'], ['of', 'O'], ['the', 'O'], ['most', 'O'], ['transformative', 'O'], ['innovations', 'O'], ['in', 'O'], ['years', 'O'], ['to', 'O'], ['come.', 'O']]
+  
+[['Hospitals', 'O'], ['and', 'O'], ['GP', 'O'], ['practices', 'O'], ['will', 'O'], ['not', 'O'], ['only', 'O'], ['be', 'O'], ['able', 'O'], ['to', 'O'], ['use', 'O'], ['it', 'O'], ['to', 'O'], ['streamline', 'O'], ['basic', 'O'], ['booking', 'O'], ['and', 'O'], ['patient', 'O'], ['services', 'O'], ['with', 'O'], ['smart', 'O'], ['bots,', 'O'], ['but', 'O'], ['doctors', 'O'], ['and', 'O'], ['researchers', 'O'], ['will', 'O'], ['be', 'O'], ['able', 'O'], ['to', 'O'], ['make', 'O'], ['faster', 'O'], ['and', 'O'], ['more', 'O'], ['informed', 'O'], ['decisions', 'O'], ['across', 'O'], ['the', 'O'], ["board.'", 'O']]
+  
+  
+  
+Article name:  Woodside's cognitive architecture revealed by IBM
+Article number:  4
+[["Woodside's", 'O'], ['cognitive', 'O'], ['architecture', 'O'], ['revealed', 'O'], ['by', 'O'], ['IBM', 'ORGANIZATION'], ['IBM', 'ORGANIZATION'], ['has', 'O'], ['revealed', 'O'], ['more', 'O'], ['detail', 'O'], ['about', 'O'], ['the', 'O'], ['architecture', 'O'], ['of', 'O'], ['its', 'O'], ['Watson', 'PERSON'], ['deployment', 'O'], ['at', 'O'], ['Woodside', 'ORGANIZATION'], ['Energy', 'ORGANIZATION'], ['and', 'O'], ['the', 'O'], ['supervised', 'O'], ['learning', 'O'], ['required', 'O'], ['to', 'O'], ['train', 'O'], ['it.', 'O']]
+  
+[['The', 'O'], ['vendor', 'O'], ['also', 'O'], ['published', 'O'], ['a', 'O'], ['video', 'O'], ['that', 'O'], ['shows', 'O'], ['the', 'O'], ['extent', 'O'], ['of', 'O'], ['Woodsides', 'O'], ['specification', 'O'], ['data', 'O'], ['and', 'O'], ['tribal', 'O'], ['knowledge', 'O'], ['that', 'O'], ['is', 'O'], ['being', 'O'], ['captured', 'O'], ['and', 'O'], ['put', 'O'], ['to', 'O'], ['use', 'O'], ['by', 'O'], ['engineers,', 'O'], ['including', 'O'], ['those', 'O'], ['based', 'O'], ['on', 'O'], ['the', 'O'], ['North', 'O'], ['Rankin', 'O'], ['complex', 'O'], ['platforms', 'O'], ['off', 'O'], ['Australias', 'O'], ['north-west', 'O'], ['coast.', 'O']]
+  
+[['Woodsides', 'O'], ['use', 'O'], ['of', 'O'], ['Watson', 'PERSON'], ['cognitive', 'O'], ['computing', 'O'], ['technology', 'O'], ['is', 'O'], ['designed', 'O'], ['to', 'O'], ['make', 'O'], ['it', 'O'], ['easier', 'O'], ['for', 'O'], ['staff', 'O'], ['to', 'O'], ['query', 'O'], ['30', 'O'], ['years', 'O'], ['of', 'O'], ['historical', 'O'], ['internal', 'O'], ['data.', 'O']]
+  
+[['Though', 'O'], ['it', 'O'], ['was', 'O'], ['to', 'O'], ['be', 'O'], ['presented', 'O'], ['as', 'O'], ['a', 'O'], ['desktop', 'O'], ['application,', 'O'], ['the', 'O'], ['video', 'O'], ['published', 'O'], ['last', 'O'], ['night', 'O'], ['shows', 'O'], ['Woodside', 'ORGANIZATION'], ['engineers', 'O'], ['on', 'O'], ['its', 'O'], ['offshore', 'O'], ['gas', 'O'], ['platforms', 'O'], ['are', 'O'], ['able', 'O'], ['to', 'O'], ['poll', 'O'], ['the', 'O'], ['system', 'O'], ['using', 'O'], ['tablet', 'O'], ['devices.', 'O']]
+  
+[['IBM', 'ORGANIZATION'], ['said', 'O'], ['it', 'O'], ['and', 'O'], ['Woodside', 'ORGANIZATION'], ['had', 'O'], ['established', 'O'], ['a', 'O'], ['corpus', 'O'], ['that', 'O'], ['pools', 'O'], ['materials', 'O'], ['to', 'O'], ['be', 'O'], ['ingested', 'O'], ['by', 'O'], ['Watson.', 'O']]
+  
+[['A', 'O'], ['core', 'O'], ['group', 'O'], ['of', 'O'], ['Woodsides', 'LOCATION'], ['current', 'O'], ['and', 'O'], ['former', 'O'], ['employees', 'O'], ['began', 'O'], ['to', 'O'], ['test', 'O'], ['Watson', 'PERSON'], ['on', 'O'], ['what', 'O'], ['it', 'O'], ['had', 'O'], ['learned,', 'O'], ['guiding', 'O'], ['Watsons', 'ORGANIZATION'], ['answers', 'O'], ['and', 'O'], ['teaching', 'O'], ['the', 'O'], ['system', 'O'], ['to', 'O'], ['think', 'O'], ['like', 'O'], ['one', 'O'], ['of', 'O'], ['them,', 'O'], ['IBM', 'ORGANIZATION'], ['said', 'O'], ['in', 'O'], ['a', 'O'], ['blog', 'O'], ['post', 'O'], ['to', 'O'], ['Medium.', 'O']]
+  
+[['Based', 'O'], ['on', 'O'], ['a', 'O'], ['series', 'O'], ['of', 'O'], ['questions', 'O'], ['posed', 'O'], ['to', 'O'], ['Watson,', 'O'], ['the', 'O'], ['group', 'O'], ['used', 'O'], ['their', 'O'], ['expertise', 'O'], ['to', 'O'], ['rate', 'O'], ['the', 'O'], ['responses,', 'O'], ['which', 'O'], ['were', 'O'], ['fed', 'O'], ['back', 'O'], ['into', 'O'], ['the', 'O'], ['system,', 'O'], ['allowing', 'O'], ['Watson', 'PERSON'], ['to', 'O'], ['learn', 'O'], ['and', 'O'], ['become', 'O'], ['smarter.', 'O']]
+  
+[['By', 'O'], ['combining', 'O'], ['years', 'O'], ['of', 'O'], ['data', 'O'], ['with', 'O'], ['years', 'O'], ['of', 'O'], ['experience,', 'O'], ['Watson', 'PERSON'], ['was', 'O'], ['able', 'O'], ['to', 'O'], ['tap', 'O'], ['into', 'O'], ['Woodsides', 'LOCATION'], ['tribal', 'O'], ['knowledge', 'O'], ['and', 'O'], ['discover', 'O'], ['the', 'O'], ['best', 'O'], ['advice', 'O'], ['of', 'O'], ['thousands', 'O'], ['of', 'O'], ['engineers,', 'O'], ['as', 'O'], ['well', 'O'], ['as', 'O'], ['learn', 'O'], ['how', 'O'], ['to', 'O'], ['process', 'O'], ['new', 'O'], ['information', 'O'], ['as', 'O'], ['it', 'O'], ['was', 'O'], ['added', 'O'], ['to', 'O'], ['the', 'O'], ['corpus.', 'O']]
+  
+[['It', 'O'], ['said', 'O'], ['tens', 'O'], ['of', 'O'], ['thousands', 'O'], ['of', 'O'], ['Woodside', 'ORGANIZATION'], ['documents', 'O'], ['had', 'O'], ['been', 'O'], ['ingested', 'O'], ['to', 'O'], ['date,', 'O'], ['each', 'O'], ['typically', 'O'], ['over', 'O'], ['100', 'O'], ['pages', 'O'], ['in', 'O'], ["length''.", 'O']]
+  
+[['IBM', 'ORGANIZATION'], ['also', 'O'], ['revealed', 'O'], ['which', 'O'], ['of', 'O'], ['its', 'O'], ['developer', 'O'], ['cloud', 'O'], ['APIs', 'O'], ['are', 'O'], ['backing', 'O'], ['Woodsides', 'PERSON'], ['Watson', 'PERSON'], ['deployment.', 'PERSON']]
+  
+[['The', 'O'], ['resources', 'O'], ['firm', 'O'], ['is', 'O'], ['using', 'O'], ['the', 'O'], ['natural', 'O'], ['language', 'O'], ['classifier', 'O'], ['and', 'O'], ['conversation', 'O'], ['APIs', 'O'], ['to', 'O'], ['help', 'O'], ['the', 'O'], ['system', 'O'], ['speak', 'O'], ['the', 'O'], ['language', 'O'], ['of', 'O'], ['a', 'O'], ['liquefied', 'O'], ['natural', 'O'], ['gas', 'O'], ['(LNG)', 'O'], ['engineer.', 'O']]
+  
+[['It', 'O'], ['also', 'O'], ['uses', 'O'], ['a', 'O'], ['retrieve', 'O'], ['and', 'O'], ['rank', 'O'], ['API', 'O'], ['to', 'O'], ['retrieve', 'O'], ['all', 'O'], ['relevant', 'O'], ['information', 'O'], ['from', 'O'], ['the', 'O'], ['corpus,', 'O'], ['rank', 'O'], ['them', 'O'], ['in', 'O'], ['terms', 'O'], ['of', 'O'], ['relevance,', 'O'], ['and', 'O'], ['respond', 'O'], ['with', 'O'], ['the', 'O'], ['best', 'O'], ['matches,', 'O'], ['as', 'O'], ['well', 'O'], ['as', 'O'], ['related', 'O'], ['points', 'O'], ['of', 'O'], ["inspiration''.", 'O']]
+  
+[['All', 'O'], ['three', 'O'], ['APIs', 'O'], ['fall', 'O'], ['under', 'O'], ['the', 'O'], ['language', 'O'], ['family', 'O'], ['of', 'O'], ['services', 'O'], ['offered', 'O'], ['in', 'O'], ['the', 'O'], ['IBM', 'ORGANIZATION'], ['Watson', 'ORGANIZATION'], ['developer', 'O'], ['cloud.', 'O']]
+  
+[['IBM', 'ORGANIZATION'], ['presently', 'O'], ['has', 'O'], ['14', 'O'], ['Watson', 'PERSON'], ['APIs.', 'O']]
+  
+[['Woodside', 'ORGANIZATION'], ['itself', 'O'], ['continues', 'O'], ['to', 'O'], ['provide', 'O'], ['only', 'O'], ['scant', 'O'], ['detail', 'O'], ['on', 'O'], ['its', 'O'], ['Watson', 'PERSON'], ['project.', 'O']]
+  
+[['In', 'O'], ['its', 'O'], ['half-yearly', 'O'], ['report,', 'O'], ['publishedlate', 'O'], ['last', 'O'], ['week,', 'O'], ['the', 'O'], ['company', 'O'], ['said', 'O'], ['only', 'O'], ['that', 'O'], ['it', 'O'], ['had', 'O'], ['deployed', 'O'], ['Watson', 'PERSON'], ['into', 'O'], ['various', 'O'], ['technical', 'O'], ['and', 'O'], ['commercial', 'O'], ['areas', 'O'], ['of', 'O'], ['[its]', 'O'], ["business''.", 'O']]
+  
+[['It', 'O'], ['also', 'O'], ['said', 'O'], ['it', 'O'], ['was', 'O'], ['using', 'O'], ['advanced', 'O'], ['analytics', 'O'], ['to', 'O'], ['develop', 'O'], ['opportunities', 'O'], ['in', 'O'], ['production', 'O'], ['optimisation', 'O'], ['through', 'O'], ['system', 'O'], ['modelling,', 'O'], ['predictive', 'O'], ['maintenance', 'O'], ['and', 'O'], ['targeted', 'O'], ['plant', 'O'], ["inspections''.", 'O']]
+  
+[['However,', 'O'], ['this', 'O'], ['is', 'O'], ['more', 'O'], ['likely', 'O'], ['to', 'O'], ['be', 'O'], ['occurring', 'O'], ['through', 'O'], ['a', 'O'], ['company-wide', 'O'], ['analytics', 'O'], ['drive', 'O'], ['spearheaded', 'O'], ['by', 'O'], ['Accenture', 'O'], ['rather', 'O'], ['than', 'O'], ['through', 'O'], ['its', 'O'], ['use', 'O'], ['of', 'O'], ['Watson.', 'O']]
+  
+  
+  
+Article name:  Defense Department wants AI war technology expansion
+Article number:  5
+[['Defense', 'ORGANIZATION'], ['Department', 'ORGANIZATION'], ['wants', 'O'], ['AI', 'O'], ['war', 'O'], ['technology', 'O'], ['expansion', 'O'], ['The', 'O'], ['world', 'O'], ['continues', 'O'], ['marching', 'O'], ['towards', 'O'], ['the', 'O'], ['warm', 'O'], ['embrace', 'O'], ['of', 'O'], ['machines', 'O'], ['in', 'O'], ['the', 'O'], ['formation', 'O'], ['of', 'O'], ['Skynet,', 'O'], ['so', 'O'], ['it', 'O'], ['should', 'O'], ['come', 'O'], ['as', 'O'], ['no', 'O'], ['surprise', 'O'], ['that', 'O'], ['a', 'O'], ['new', 'O'], ['Defense', 'ORGANIZATION'], ['Department', 'ORGANIZATION'], ['report', 'O'], ['says', 'O'], ['the', 'O'], ['United', 'LOCATION'], ['States', 'LOCATION'], ['need', 'O'], ['to', 'O'], ['take', 'O'], ["''immediate", 'O'], ["action''", 'O'], ['to', 'O'], ['increase', 'O'], ['the', 'O'], ['development', 'O'], ['of', 'O'], ['its', 'O'], ['AI', 'O'], ['war', 'O'], ['technology.', 'O']]
+  
+[['The', 'O'], ['US', 'LOCATION'], ['military', 'O'], ['is', 'O'], ['behind', 'O'], ['in', 'O'], ['AI', 'O'], ['research', 'O'], ['and', 'O'], ['autonomous', 'O'], ['technology', 'O'], ['when', 'O'], ['compared', 'O'], ['against', 'O'], ['academic', 'O'], ['and', 'O'], ['private', 'O'], ['research,', 'O'], ['reports', 'O'], ['Engadget,', 'O'], ['which', 'O'], ['also', 'O'], ['adds', 'O'], ['that', 'O'], ['the', 'O'], ['US', 'LOCATION'], ['has', 'O'], ['been', 'O'], ['primarily', 'O'], ['focused', 'O'], ['on', 'O'], ['launching', 'O'], ['heavy,', 'O'], ['physical', 'O'], ['attacks', 'O'], ['like', 'O'], ['previous', 'O'], ['wars,', 'O'], ['that', 'O'], ['it', 'O'], ['has', 'O'], ['left', 'O'], ['itself', 'O'], ['behind', 'O'], ['the', 'O'], ['AI', 'O'], ['and', 'O'], ['autonomous', 'O'], ['technology', 'O'], ['race.', 'O']]
+  
+[['Well,', 'O'], ['that', 'O'], ['needs', 'O'], ['to', 'O'], ['stop', 'O'], ['-', 'O'], ['and', 'O'], ['we', 'O'], ['can', 'O'], ['be', 'O'], ['sure', 'O'], ['that', 'O'], ['over', 'O'], ['the', 'O'], ['coming', 'O'], ['years', 'O'], ['US', 'LOCATION'], ["taxpayers'", 'O'], ['money', 'O'], ['will', 'O'], ['be', 'O'], ['spent', 'O'], ['on', 'O'], ['it,', 'O'], ['in', 'O'], ['a', 'O'], ['big', 'O'], ['way.', 'O']]
+  
+[['In', 'O'], ['the', 'O'], ['report,', 'O'], ['the', 'O'], ['Defense', 'ORGANIZATION'], ['Department', 'ORGANIZATION'], ['said', 'O'], ['that', 'O'], ['the', 'O'], ['Pentagon', 'ORGANIZATION'], ['needs', 'O'], ['to', 'O'], ['gather', 'O'], ['intelligence', 'O'], ['on', 'O'], ['other', 'O'], ["nations'", 'O'], ['AI', 'O'], ['capabilities,', 'O'], ['and', 'O'], ['work', 'O'], ['on', 'O'], ["''counter-autonomy''", 'O'], ['solutions.', 'O']]
+  
+[['So', 'O'], ['in', 'O'], ['other', 'O'], ['words,', 'O'], ['the', 'O'], ['bully', 'O'], ["didn't", 'O'], ['do', 'O'], ['his', 'O'], ['homework', 'O'], ['or', 'O'], ['bring', 'O'], ['lunch', 'O'], ['money,', 'O'], ['so', 'O'], ["he's", 'O'], ['going', 'O'], ['to', 'O'], ['cheat', 'O'], ['off', 'O'], ['your', 'O'], ['test', 'O'], ['and', 'O'], ['steal', 'O'], ['your', 'O'], ['lunch', 'O'], ['money', 'O'], ['and', 'O'], ['claim', 'O'], ['victory.', 'O']]
+  
+[['Defense', 'ORGANIZATION'], ['Department', 'ORGANIZATION'], ['writers', 'O'], ['also', 'O'], ['added', 'O'], ['that', 'O'], ['the', 'O'], ['US', 'LOCATION'], ['spend', 'O'], ['a', 'O'], ['considerable', 'O'], ['sum', 'O'], ['of', 'O'], ['money', 'O'], ['on', 'O'], ['developing', 'O'], ['and', 'O'], ['testing', 'O'], ['artificial', 'O'], ['intelligence,', 'O'], ['with', 'O'], ['AI-powered', 'O'], ['weapons', 'O'], ['that', 'O'], ['would', 'O'], ['adapt', 'O'], ['to', 'O'], ['different', 'O'], ['battlefield', 'O'], ['conditions.', 'O']]
+  
+[['We', 'O'], ["don't", 'O'], ['know', 'O'], ['if', 'O'], ['the', 'O'], ['US', 'LOCATION'], ['government', 'O'], ['and', 'O'], ['military', 'O'], ['will', 'O'], ['do', 'O'], ['this,', 'O'], ['but', 'O'], ['at', 'O'], ['this', 'O'], ['point', 'O'], ['in', 'O'], ['time,', 'O'], ['I', 'O'], ["don't", 'O'], ['see', 'O'], ['why', 'O'], ['you', 'O'], ['think', 'O'], ['they', 'O'], ["wouldn't.", 'O']]
+  
+  
+  
+Article name:  Artificial intelligence is changing SEO faster than you think
+Article number:  6
+[['Artificial', 'O'], ['intelligence', 'O'], ['is', 'O'], ['changing', 'O'], ['SEO', 'O'], ['faster', 'O'], ['than', 'O'], ['you', 'O'], ['think', 'O'], ['There', 'O'], ['are', 'O'], ['generally', 'O'], ['three', 'O'], ['different', 'O'], ['classifications', 'O'], ['of', 'O'], ['artificial', 'O'], ['intelligence:', 'O'], ['When', 'O'], ['we', 'O'], ['talk', 'O'], ['about', 'O'], ['the', 'O'], ['context', 'O'], ['of', 'O'], ['Googles', 'O'], ['RankBrain,', 'O'], ['and', 'O'], ['the', 'O'], ['machine', 'O'], ['learning', 'O'], ['algorithms', 'O'], ['that', 'O'], ['are', 'O'], ['currently', 'O'], ['running', 'O'], ['on', 'O'], ['Google,', 'O'], ['we', 'O'], ['are', 'O'], ['talking', 'O'], ['about', 'O'], ['Artificial', 'O'], ['Narrow', 'O'], ['Intelligence', 'O'], ['(ANI).', 'O']]
+  
+[['Actually,', 'O'], ['ANI', 'O'], ['has', 'O'], ['been', 'O'], ['around', 'O'], ['for', 'O'], ['some', 'O'], ['time.', 'O']]
+  
+[['Ever', 'O'], ['wonder', 'O'], ['how', 'O'], ['those', 'O'], ['SPAM', 'O'], ['filters', 'O'], ['work', 'O'], ['in', 'O'], ['your', 'O'], ['email?', 'O']]
+  
+[['Yep,', 'O'], ['thats', 'O'], ['ANI.', 'O']]
+  
+[['Here', 'O'], ['are', 'O'], ['some', 'O'], ['of', 'O'], ['my', 'O'], ['favorite', 'O'], ['ANI', 'O'], ['programs:', 'O'], ['Google', 'ORGANIZATION'], ['Translate,', 'O'], ['IBMs', 'O'], ['Watson,', 'O'], ['that', 'O'], ['cool', 'O'], ['feature', 'O'], ['on', 'O'], ['Amazon', 'LOCATION'], ['that', 'O'], ['tells', 'O'], ['you', 'O'], ['products', 'O'], ['that', 'O'], ['are', 'O'], ['recommended', 'O'], ['for', 'O'], ['you,', 'O'], ['self-driving', 'O'], ['cars', 'O'], ['and,', 'O'], ['yes,', 'O'], ['our', 'O'], ['beloved', 'O'], ['Googles', 'O'], ['RankBrain.', 'O']]
+  
+[['Within', 'O'], ['ANI,', 'O'], ['there', 'O'], ['are', 'O'], ['many', 'O'], ['different', 'O'], ['approaches.', 'O']]
+  
+[['As', 'O'], ['Pedro', 'PERSON'], ['Domingos', 'PERSON'], ['clearly', 'O'], ['lays', 'O'], ['out', 'O'], ['in', 'O'], ['his', 'O'], ['bookThe', 'O'], ['Master', 'O'], ['Algorithm,data', 'O'], ['scientists', 'O'], ['trying', 'O'], ['to', 'O'], ['achieve', 'O'], ['the', 'O'], ['perfect', 'O'], ['AI', 'O'], ['can', 'O'], ['be', 'O'], ['grouped', 'O'], ['into', 'O'], ['five', 'O'], ['tribes', 'O'], ['today:', 'O'], ['Googles', 'O'], ['RankBrain', 'O'], ['is', 'O'], ['in', 'O'], ['the', 'O'], ['camp', 'O'], ['of', 'O'], ['the', 'O'], ['Connectionists.', 'O']]
+  
+[['Connectionists', 'O'], ['believe', 'O'], ['that', 'O'], ['all', 'O'], ['our', 'O'], ['knowledge', 'O'], ['is', 'O'], ['encoded', 'O'], ['in', 'O'], ['the', 'O'], ['connections', 'O'], ['between', 'O'], ['neurons', 'O'], ['in', 'O'], ['our', 'O'], ['brain.', 'O']]
+  
+[['And', 'O'], ['RankBrains', 'O'], ['particular', 'O'], ['strategy', 'O'], ['is', 'O'], ['whatexperts', 'O'], ['in', 'O'], ['the', 'O'], ['field', 'O'], ['call', 'O'], ['a', 'O'], ['back', 'O'], ['propagation', 'O'], ['technique,rebranded', 'O'], ['as', 'O'], ['deep', 'O'], ['learning.', 'O']]
+  
+[['Connectionists', 'O'], ['claim', 'O'], ['this', 'O'], ['strategy', 'O'], ['is', 'O'], ['capable', 'O'], ['of', 'O'], ['learning', 'O'], ['anything', 'O'], ['from', 'O'], ['raw', 'O'], ['data,', 'O'], ['and', 'O'], ['therefore', 'O'], ['is', 'O'], ['also', 'O'], ['capable', 'O'], ['of', 'O'], ['ultimately', 'O'], ['automating', 'O'], ['all', 'O'], ['knowledge', 'O'], ['discovery.', 'O']]
+  
+[['Google', 'ORGANIZATION'], ['apparently', 'O'], ['believes', 'O'], ['this,', 'O'], ['too.', 'O']]
+  
+[['On', 'O'], ['January', 'O'], ['26th,', 'O'], ['2014,', 'O'], ['Googleannouncedit', 'O'], ['had', 'O'], ['agreed', 'O'], ['to', 'O'], ['acquire', 'O'], ['DeepMind', 'O'], ['Technologies,', 'O'], ['which', 'O'], ['was,', 'O'], ['essentially,', 'O'], ['a', 'O'], ['back', 'O'], ['propagation', 'O'], ['shop.', 'O']]
+  
+[['So', 'O'], ['when', 'O'], ['we', 'O'], ['talk', 'O'], ['about', 'O'], ['RankBrain,', 'O'], ['we', 'O'], ['now', 'O'], ['can', 'O'], ['tell', 'O'], ['peopleit', 'O'], ['is', 'O'], ['comprised', 'O'], ['of', 'O'], ['one', 'O'], ['particular', 'O'], ['technique', 'O'], ['(back', 'O'], ['propagation', 'O'], ['or', 'O'], ['deep', 'O'], ['learning)', 'O'], ['on', 'O'], ['ANI.', 'O']]
+  
+[['Now', 'O'], ['that', 'O'], ['we', 'O'], ['have', 'O'], ['that', 'O'], ['out', 'O'], ['of', 'O'], ['the', 'O'], ['way,', 'O'], ['just', 'O'], ['how', 'O'], ['much', 'O'], ['is', 'O'], ['this', 'O'], ['field', 'O'], ['progressing?', 'O']]
+  
+[['And,', 'O'], ['more', 'O'], ['importantly,', 'O'], ['how', 'O'], ['is', 'O'], ['it', 'O'], ['changing', 'O'], ['the', 'O'], ['business', 'O'], ['of', 'O'], ['SEO?', 'O']]
+  
+[['Tim', 'O'], ['UrbanfromWaitButWhy.comexplains', 'O'], ['the', 'O'], ['growth', 'O'], ['of', 'O'], ['technology', 'O'], ['better', 'O'], ['than', 'O'], ['anyone', 'O'], ['in', 'O'], ['his', 'O'], ['articleThe', 'O'], ['AI', 'O'], ['Revolution:', 'O'], ['The', 'O'], ['Road', 'O'], ['to', 'O'], ['Superintelligence.', 'O']]
+  
+[['Here', 'O'], ['is', 'O'], ['what', 'O'], ['technological', 'O'], ['progress', 'O'], ['looks', 'O'], ['like,', 'O'], ['when', 'O'], ['you', 'O'], ['look', 'O'], ['back', 'O'], ['at', 'O'], ['history:', 'O'], ['But,', 'O'], ['as', 'O'], ['Urban', 'O'], ['points', 'O'], ['out,', 'O'], ['in', 'O'], ['reality,', 'O'], ['you', 'O'], ['cant', 'O'], ['see', 'O'], ['whats', 'O'], ['to', 'O'], ['your', 'O'], ['right', 'O'], ['(the', 'O'], ['future).', 'O']]
+  
+[['So', 'O'], ['here', 'O'], ['is', 'O'], ['how', 'O'], ['it', 'O'], ['actually', 'O'], ['feels', 'O'], ['when', 'O'], ['you', 'O'], ['are', 'O'], ['standing', 'O'], ['there:', 'O'], ['What', 'O'], ['this', 'O'], ['chart', 'O'], ['showsis', 'O'], ['that', 'O'], ['when', 'O'], ['humans', 'O'], ['try', 'O'], ['to', 'O'], ['predict', 'O'], ['the', 'O'], ['future,', 'O'], ['they', 'O'], ['always', 'O'], ['underestimate.', 'O']]
+  
+[['This', 'O'], ['is', 'O'], ['because', 'O'], ['they', 'O'], ['are', 'O'], ['looking', 'O'], ['to', 'O'], ['the', 'O'], ['left', 'O'], ['of', 'O'], ['this', 'O'], ['graph,', 'O'], ['instead', 'O'], ['of', 'O'], ['to', 'O'], ['the', 'O'], ['right.', 'O']]
+  
+[['However,', 'O'], ['the', 'O'], ['reality', 'O'], ['is,', 'O'], ['human', 'O'], ['progress', 'O'], ['takes', 'O'], ['place', 'O'], ['at', 'O'], ['a', 'O'], ['faster', 'O'], ['and', 'O'], ['faster', 'O'], ['rate', 'O'], ['as', 'O'], ['time', 'O'], ['goes', 'O'], ['on.Ray', 'O'], ['Kurzweilcalls', 'O'], ['this', 'O'], ['the', 'O'], ['Law', 'O'], ['of', 'O'], ['Accelerating', 'O'], ['Returns.', 'O']]
+  
+[['The', 'O'], ['scientific', 'O'], ['reasoning', 'O'], ['behind', 'O'], ['his', 'O'], ['original', 'O'], ['theory', 'O'], ['is', 'O'], ['that', 'O'], ['more', 'O'], ['advanced', 'O'], ['societies', 'O'], ['have', 'O'], ['the', 'O'], ['ability', 'O'], ['to', 'O'], ['progress', 'O'], ['at', 'O'], ['a', 'O'], ['fasterratethan', 'O'], ['less', 'O'], ['advanced', 'O'], ['societies', 'O'], ['becausetheyre', 'O'], ['more', 'O'], ['advanced.', 'O']]
+  
+[['Of', 'O'], ['course,', 'O'], ['the', 'O'], ['same', 'O'], ['can', 'O'], ['be', 'O'], ['applied', 'O'], ['to', 'O'], ['artificial', 'O'], ['intelligence', 'O'], ['and', 'O'], ['the', 'O'], ['growth', 'O'], ['rate', 'O'], ['we', 'O'], ['are', 'O'], ['seeing', 'O'], ['now', 'O'], ['with', 'O'], ['advanced', 'O'], ['technology.', 'O']]
+  
+[['We', 'O'], ['see', 'O'], ['this', 'O'], ['with', 'O'], ['computing', 'O'], ['resources', 'O'], ['right', 'O'], ['now.', 'O']]
+  
+[['Here', 'O'], ['is', 'O'], ['a', 'O'], ['visualization', 'O'], ['that', 'O'], ['gives', 'O'], ['you', 'O'], ['the', 'O'], ['perspective', 'O'], ['of', 'O'], ['just', 'O'], ['how', 'O'], ['fast', 'O'], ['things', 'O'], ['can', 'O'], ['changebecause', 'O'], ['ofthis', 'O'], ['Law', 'PERSON'], ['of', 'O'], ['Accelerating', 'O'], ['Returns:', 'O'], ['As', 'O'], ['you', 'O'], ['can', 'O'], ['clearly', 'O'], ['see,', 'O'], ['and', 'O'], ['as', 'O'], ['we', 'O'], ['all', 'O'], ['can', 'O'], ['intuitively', 'O'], ['feel,', 'O'], ['the', 'O'], ['growth', 'O'], ['of', 'O'], ['advanced', 'O'], ['processing', 'O'], ['and', 'O'], ['computers', 'O'], ['has', 'O'], ['benefited', 'O'], ['from', 'O'], ['this', 'O'], ['Law', 'O'], ['of', 'O'], ['Accelerating', 'O'], ['Returns.', 'O']]
+  
+[['Here', 'O'], ['is', 'O'], ['another', 'O'], ['shocking', 'O'], ['revelation:', 'O'], ['At', 'O'], ['some', 'O'], ['point,', 'O'], ['the', 'O'], ['processing', 'O'], ['power', 'O'], ['for', 'O'], ['an', 'O'], ['economical', 'O'], ['computer', 'O'], ['will', 'O'], ['surpass', 'O'], ['that', 'O'], ['of', 'O'], ['not', 'O'], ['only', 'O'], ['a', 'O'], ['single', 'O'], ['human,', 'O'], ['but', 'O'], ['for', 'O'], ['all', 'O'], ['humanscombined.', 'O']]
+  
+[['In', 'O'], ['fact,', 'O'], ['it', 'O'], ['now', 'O'], ['appears', 'O'], ['that', 'O'], ['we', 'O'], ['will', 'O'], ['be', 'O'], ['able', 'O'], ['to', 'O'], ['achieve', 'O'], ['Artificial', 'O'], ['General', 'O'], ['Intelligence', 'O'], ['(AGI)', 'O'], ['some', 'O'], ['time', 'O'], ['around', 'O'], ['2025.', 'O']]
+  
+[['Technology', 'O'], ['is', 'O'], ['clearly', 'O'], ['expanding', 'O'], ['at', 'O'], ['a', 'O'], ['faster', 'O'], ['and', 'O'], ['faster', 'O'], ['pace,', 'O'], ['and,', 'O'], ['by', 'O'], ['many', 'O'], ['accounts,', 'O'], ['most', 'O'], ['of', 'O'], ['us', 'O'], ['will', 'O'], ['be', 'O'], ['caught', 'O'], ['off', 'O'], ['guard.', 'O']]
+  
+[['As', 'O'], ['I', 'O'], ['have', 'O'], ['explained', 'O'], ['above,', 'O'], ['Googles', 'O'], ['RankBrain', 'O'], ['is', 'O'], ['just', 'O'], ['one', 'O'], ['form', 'O'], ['ofANI,', 'O'], ['which', 'O'], ['means', 'O'], ['that,', 'O'], ['while', 'O'], ['it', 'O'], ['can', 'O'], ['perform', 'O'], ['things', 'O'], ['better', 'O'], ['than', 'O'], ['a', 'O'], ['human', 'O'], ['in', 'O'], ['one', 'O'], ['specific', 'O'], ['area,', 'O'], ['it', 'O'], ['is', 'O'], ['just', 'O'], ['that:', 'O'], ['a', 'O'], ['relatively', 'O'], ['weak', 'O'], ['form', 'O'], ['of', 'O'], ['artificial', 'O'], ['intelligence.', 'O']]
+  
+[['But', 'O'], ['we', 'O'], ['may', 'O'], ['be', 'O'], ['blindsided', 'O'], ['by', 'O'], ['how', 'O'], ['fast', 'O'], ['this', 'O'], ['weak', 'O'], ['intelligence', 'O'], ['might', 'O'], ['easily', 'O'], ['turn', 'O'], ['into', 'O'], ['something', 'O'], ['with', 'O'], ['whichwe', 'O'], ['have', 'O'], ['no', 'O'], ['idea', 'O'], ['how', 'O'], ['to', 'O'], ['deal.', 'O']]
+  
+[['Here,', 'O'], ['you', 'O'], ['can', 'O'], ['clearly', 'O'], ['see', 'O'], ['that', 'O'], ['Googles', 'O'], ['RankBrain,', 'O'], ['while', 'O'], ['super', 'O'], ['intelligent', 'O'], ['on', 'O'], ['one', 'O'], ['particular', 'O'], ['task,', 'O'], ['is', 'O'], ['still', 'O'], ['in', 'O'], ['the', 'O'], ['general', 'O'], ['context', 'O'], ['of', 'O'], ['things,', 'O'], ['fairly', 'O'], ['unintelligent', 'O'], ['on', 'O'], ['the', 'O'], ['intelligence', 'O'], ['scale.', 'O']]
+  
+[['But', 'O'], ['what', 'O'], ['happens', 'O'], ['when', 'O'], ['we', 'O'], ['apply', 'O'], ['the', 'O'], ['same', 'O'], ['Law', 'O'], ['of', 'O'], ['Accelerating', 'O'], ['Returns', 'O'], ['to', 'O'], ['artificial', 'O'], ['intelligence?', 'O']]
+  
+[['Tim', 'PERSON'], ['Urban', 'PERSON'], ['walks', 'O'], ['us', 'O'], ['through', 'O'], ['the', 'O'], ['thought', 'O'], ['experiment:', 'O'], ['so', 'O'], ['as', 'O'], ['A.I.', 'O']]
+  
+[['zooms', 'O'], ['upward', 'O'], ['in', 'O'], ['intelligence', 'O'], ['toward', 'O'], ['us,', 'O'], ['well', 'O'], ['see', 'O'], ['it', 'O'], ['as', 'O'], ['simply', 'O'], ['becoming', 'O'], ['smarter,', 'O'], ['for', 'O'], ['an', 'O'], ['animal.', 'O']]
+  
+[['Then,', 'O'], ['when', 'O'], ['it', 'O'], ['hits', 'O'], ['the', 'O'], ['lowest', 'O'], ['capacity', 'O'], ['of', 'O'], ['humanity', 'O'], ['Nick', 'PERSON'], ['Bostrom', 'PERSON'], ['uses', 'O'], ['the', 'O'], ['term', 'O'], ['the', 'O'], ['village', 'O'], ['idiot', 'O'], ['well', 'O'], ['be', 'O'], ['like,', 'O'], ['Oh', 'O'], ['wow,', 'O'], ['its', 'O'], ['like', 'O'], ['a', 'O'], ['dumb', 'O'], ['human.', 'O']]
+  
+[['Cute!', 'O']]
+  
+[['The', 'O'], ['only', 'O'], ['thing', 'O'], ['is,', 'O'], ['in', 'O'], ['the', 'O'], ['grand', 'O'], ['spectrum', 'O'], ['of', 'O'], ['intelligence,', 'O'], ['all', 'O'], ['humans,', 'O'], ['from', 'O'], ['the', 'O'], ['village', 'O'], ['idiot', 'O'], ['to', 'O'], ['Einstein,', 'O'], ['are', 'O'], ['within', 'O'], ['a', 'O'], ['very', 'O'], ['small', 'O'], ['range', 'O'], ['so', 'O'], ['just', 'O'], ['after', 'O'], ['hitting', 'O'], ['village', 'O'], ['idiot', 'O'], ['level', 'O'], ['and', 'O'], ['being', 'O'], ['declared', 'O'], ['to', 'O'], ['be', 'O'], ['AGI,', 'O'], ['itll', 'O'], ['suddenly', 'O'], ['be', 'O'], ['smarter', 'O'], ['than', 'O'], ['Einstein', 'PERSON'], ['and', 'O'], ['we', 'O'], ['wont', 'O'], ['know', 'O'], ['what', 'O'], ['hit', 'O'], ['us.', 'O']]
+  
+[['So', 'O'], ['what', 'O'], ['does', 'O'], ['this', 'O'], ['mean', 'O'], ['for', 'O'], ['the', 'O'], ['business', 'O'], ['of', 'O'], ['SEO', 'O'], ['and', 'O'], ['the', 'O'], ['artificial', 'O'], ['intelligence', 'O'], ['that', 'O'], ['is', 'O'], ['upon', 'O'], ['us?', 'O']]
+  
+[['Before', 'O'], ['we', 'O'], ['get', 'O'], ['into', 'O'], ['predicting', 'O'], ['the', 'O'], ['future,', 'O'], ['lets', 'O'], ['take', 'O'], ['inventory', 'O'], ['on', 'O'], ['how', 'O'], ['RankBrain', 'O'], ['has', 'O'], ['already', 'O'], ['changed', 'O'], ['SEO.', 'O']]
+  
+[['I', 'O'], ['sat', 'O'], ['down', 'O'], ['with', 'O'], ['Carnegie', 'PERSON'], ['Mellon', 'PERSON'], ['alumnus', 'O'], ['and', 'O'], ['friendScott', 'O'], ['Stouffer,', 'O'], ['now', 'O'], ['CTO', 'ORGANIZATION'], ['and', 'O'], ['co-founder', 'O'], ['ofMarket', 'O'], ['Brew,', 'O'], ['a', 'O'], ['company', 'O'], ['that', 'O'], ['provides', 'O'], ['search', 'O'], ['engine', 'O'], ['models', 'O'], ['for', 'O'], ['Fortune', 'O'], ['500', 'O'], ['SEO', 'O'], ['teams.', 'O']]
+  
+[['As', 'O'], ['a', 'O'], ['search', 'O'], ['engineer', 'O'], ['himself,', 'O'], ['Stouffer', 'O'], ['had', 'O'], ['a', 'O'], ['unique', 'O'], ['perspective', 'O'], ['over', 'O'], ['the', 'O'], ['past', 'O'], ['decade', 'O'], ['that', 'O'], ['most', 'O'], ['professionals', 'O'], ['in', 'O'], ['that', 'O'], ['industry', 'O'], ['dont', 'O'], ['get', 'O'], ['to', 'O'], ['see.', 'O']]
+  
+[['Here', 'O'], ['are', 'O'], ['some', 'O'], ['of', 'O'], ['his', 'O'], ['tips', 'O'], ['for', 'O'], ['the', 'O'], ['SEO', 'O'], ['industry', 'O'], ['when', 'O'], ['it', 'O'], ['comes', 'O'], ['to', 'O'], ['Googles', 'O'], ['new', 'O'], ['emphasis', 'O'], ['on', 'O'], ['artificial', 'O'], ['intelligence.', 'O']]
+  
+[['This', 'O'], ['is', 'O'], ['the', 'O'], ['biggest', 'O'], ['current', 'O'], ['fallacy', 'O'], ['of', 'O'], ['our', 'O'], ['industry.', 'O']]
+  
+[['There', 'O'], ['have', 'O'], ['been', 'O'], ['many', 'O'], ['prognosticators', 'O'], ['every', 'O'], ['time', 'O'], ['Googles', 'O'], ['rankings', 'O'], ['shift', 'O'], ['in', 'O'], ['a', 'O'], ['big', 'O'], ['way.', 'O']]
+  
+[['Usually,', 'O'], ['without', 'O'], ['fail,', 'O'], ['a', 'O'], ['few', 'O'], ['data', 'O'], ['scientists', 'O'], ['and', 'O'], ['CTOs', 'O'], ['from', 'O'], ['well-known', 'O'], ['companies', 'O'], ['in', 'O'], ['our', 'O'], ['industry', 'O'], ['will', 'O'], ['claimthey', 'O'], ['have', 'O'], ['a', 'O'], ['reason!', 'O']]
+  
+[['for', 'O'], ['the', 'O'], ['latest', 'O'], ['Google', 'ORGANIZATION'], ['Dance.', 'O']]
+  
+[['The', 'O'], ['typical', 'O'], ['analysis', 'O'], ['consists', 'O'], ['of', 'O'], ['perusing', 'O'], ['through', 'O'], ['months', 'O'], ['of', 'O'], ['ranking', 'O'], ['data', 'O'], ['leading', 'O'], ['up', 'O'], ['to', 'O'], ['the', 'O'], ['event,', 'O'], ['then', 'O'], ['seeing', 'O'], ['how', 'O'], ['the', 'O'], ['rankings', 'O'], ['shifted', 'O'], ['across', 'O'], ['all', 'O'], ['websites', 'O'], ['of', 'O'], ['different', 'O'], ['types.', 'O']]
+  
+[['With', 'O'], ['todays', 'O'], ['approach', 'O'], ['to', 'O'], ['regression', 'O'], ['analysis,', 'O'], ['these', 'O'], ['data', 'O'], ['scientists', 'O'], ['point', 'O'], ['to', 'O'], ['a', 'O'], ['specific', 'O'], ['type', 'O'], ['of', 'O'], ['website', 'O'], ['that', 'O'], ['has', 'O'], ['been', 'O'], ['affected', 'O'], ['(positively', 'O'], ['or', 'O'], ['negatively)', 'O'], ['and', 'O'], ['conclude', 'O'], ['with', 'O'], ['high', 'O'], ['certainty', 'O'], ['that', 'O'], ['Googles', 'O'], ['latest', 'O'], ['algorithmic', 'O'], ['shift', 'O'], ['was', 'O'], ['attributed', 'O'], ['to', 'O'], ['a', 'O'], ['specific', 'O'], ['type', 'O'], ['of', 'O'], ['algorithm', 'O'], ['(contentor', 'O'], ['backlink,', 'O'], ['et', 'O'], ['al.)', 'O']]
+  
+[['that', 'O'], ['these', 'O'], ['websites', 'O'], ['shared.', 'O']]
+  
+[['However,', 'O'], ['that', 'O'], ['isnt', 'O'], ['how', 'O'], ['Google', 'ORGANIZATION'], ['works', 'O'], ['anymore.', 'O']]
+  
+[['Googles', 'O'], ['RankBrain,', 'O'], ['a', 'O'], ['machine', 'O'], ['learning', 'O'], ['or', 'O'], ['deep', 'O'], ['learning', 'O'], ['approach,', 'O'], ['works', 'O'], ['very', 'O'], ['differently.', 'O']]
+  
+[['Within', 'O'], ['Google,', 'O'], ['there', 'O'], ['are', 'O'], ['a', 'O'], ['number', 'O'], ['of', 'O'], ['core', 'O'], ['algorithms', 'O'], ['that', 'O'], ['exist.', 'O']]
+  
+[['It', 'O'], ['is', 'O'], ['RankBrains', 'O'], ['job', 'O'], ['to', 'O'], ['learn', 'O'], ['what', 'O'], ['mixture', 'O'], ['of', 'O'], ['these', 'O'], ['core', 'O'], ['algorithms', 'O'], ['is', 'O'], ['best', 'O'], ['applied', 'O'], ['to', 'O'], ['each', 'O'], ['type', 'O'], ['of', 'O'], ['search', 'O'], ['results.', 'O']]
+  
+[['For', 'O'], ['instance,', 'O'], ['in', 'O'], ['certain', 'O'], ['search', 'O'], ['results,', 'O'], ['RankBrain', 'O'], ['might', 'O'], ['learn', 'O'], ['that', 'O'], ['the', 'O'], ['most', 'O'], ['important', 'O'], ['signal', 'O'], ['is', 'O'], ['the', 'O'], ['META', 'O'], ['Title.', 'O']]
+  
+[['Adding', 'O'], ['more', 'O'], ['significance', 'O'], ['to', 'O'], ['the', 'O'], ['META', 'O'], ['Title', 'O'], ['matching', 'O'], ['algorithm', 'O'], ['might', 'O'], ['lead', 'O'], ['to', 'O'], ['a', 'O'], ['better', 'O'], ['searcher', 'O'], ['experience.', 'O']]
+  
+[['But', 'O'], ['in', 'O'], ['another', 'O'], ['search', 'O'], ['result,', 'O'], ['this', 'O'], ['very', 'O'], ['same', 'O'], ['signal', 'O'], ['might', 'O'], ['have', 'O'], ['a', 'O'], ['horrible', 'O'], ['correlation', 'O'], ['with', 'O'], ['a', 'O'], ['good', 'O'], ['searcher', 'O'], ['experience.', 'O']]
+  
+[['So', 'O'], ['in', 'O'], ['that', 'O'], ['other', 'O'], ['vertical,', 'O'], ['another', 'O'], ['algorithm,', 'O'], ['maybe', 'O'], ['PageRank,', 'O'], ['might', 'O'], ['be', 'O'], ['promoted', 'O'], ['more.', 'O']]
+  
+[['This', 'O'], ['means', 'O'], ['that,', 'O'], ['in', 'O'], ['each', 'O'], ['search', 'O'], ['result,', 'O'], ['Google', 'ORGANIZATION'], ['has', 'O'], ['a', 'O'], ['completely', 'O'], ['different', 'O'], ['mix', 'O'], ['of', 'O'], ['algorithms.', 'O']]
+  
+[['You', 'O'], ['can', 'O'], ['now', 'O'], ['see', 'O'], ['why', 'O'], ['doing', 'O'], ['regression', 'O'], ['analysis', 'O'], ['over', 'O'], ['every', 'O'], ['site,', 'O'], ['without', 'O'], ['having', 'O'], ['the', 'O'], ['context', 'O'], ['of', 'O'], ['the', 'O'], ['search', 'O'], ['result', 'O'], ['that', 'O'], ['it', 'O'], ['is', 'O'], ['in,', 'O'], ['is', 'O'], ['supremely', 'O'], ['flawed.', 'O']]
+  
+[['For', 'O'], ['these', 'O'], ['reasons,', 'O'], ['todays', 'O'], ['regression', 'O'], ['analysis', 'O'], ['must', 'O'], ['be', 'O'], ['done', 'O'], ['by', 'O'], ['each', 'O'], ['specific', 'O'], ['search', 'O'], ['result.', 'O']]
+  
+[['Stouffer', 'PERSON'], ['recently', 'O'], ['wrote', 'O'], ['about', 'O'], ['asearch', 'O'], ['modeling', 'O'], ['approachwhere', 'O'], ['the', 'O'], ['Google', 'ORGANIZATION'], ['algorithmic', 'O'], ['shiftscanbe', 'O'], ['measured.', 'O']]
+  
+[['First,', 'O'], ['you', 'O'], ['can', 'O'], ['take', 'O'], ['a', 'O'], ['snapshot', 'O'], ['of', 'O'], ['what', 'O'], ['the', 'O'], ['search', 'O'], ['engine', 'O'], ['model', 'O'], ['was', 'O'], ['calibrated', 'O'], ['to', 'O'], ['in', 'O'], ['the', 'O'], ['past', 'O'], ['for', 'O'], ['a', 'O'], ['specific', 'O'], ['keyword', 'O'], ['search.', 'O']]
+  
+[['Then,', 'O'], ['re-calibrate', 'O'], ['it', 'O'], ['after', 'O'], ['a', 'O'], ['shift', 'O'], ['in', 'O'], ['rankings', 'O'], ['has', 'O'], ['been', 'O'], ['detected,', 'O'], ['revealing', 'O'], ['the', 'O'], ['delta', 'O'], ['between', 'O'], ['the', 'O'], ['two', 'O'], ['search', 'O'], ['engine', 'O'], ['model', 'O'], ['settings.', 'O']]
+  
+[['Using', 'O'], ['this', 'O'], ['approach,', 'O'], ['during', 'O'], ['certain', 'O'], ['ranking', 'O'], ['shifts,', 'O'], ['you', 'O'], ['can', 'O'], ['see', 'O'], ['which', 'O'], ['particular', 'O'], ['algorithm', 'O'], ['is', 'O'], ['being', 'O'], ['promoted', 'O'], ['or', 'O'], ['demoted', 'O'], ['in', 'O'], ['its', 'O'], ['weighting.', 'O']]
+  
+[['Having', 'O'], ['this', 'O'], ['knowledge,', 'O'], ['we', 'O'], ['can', 'O'], ['then', 'O'], ['focus', 'O'], ['on', 'O'], ['improving', 'O'], ['that', 'O'], ['particular', 'O'], ['part', 'O'], ['of', 'O'], ['SEO', 'O'], ['for', 'O'], ['sites', 'O'], ['for', 'O'], ['those', 'O'], ['unique', 'O'], ['search', 'O'], ['results.', 'O']]
+  
+[['But', 'O'], ['that', 'O'], ['same', 'O'], ['approach', 'O'], ['will', 'O'], ['not', 'O'], ['(and', 'O'], ['cannot)', 'O'], ['hold', 'O'], ['for', 'O'], ['other', 'O'], ['search', 'O'], ['results.', 'O']]
+  
+[['This', 'O'], ['is', 'O'], ['because', 'O'], ['RankBrain', 'O'], ['is', 'O'], ['operating', 'O'], ['on', 'O'], ['thesearch', 'O'], ['result(or', 'O'], ['keyword)', 'O'], ['level.', 'O']]
+  
+[['It', 'O'], ['is', 'O'], ['literally', 'O'], ['customizing', 'O'], ['the', 'O'], ['algorithms', 'O'], ['for', 'O'], ['each', 'O'], ['search', 'O'], ['result.', 'O']]
+  
+[['What', 'O'], ['Google', 'ORGANIZATION'], ['also', 'O'], ['realized', 'O'], ['is', 'O'], ['that', 'O'], ['they', 'O'], ['could', 'O'], ['teach', 'O'], ['their', 'O'], ['new', 'O'], ['deep', 'O'], ['learning', 'O'], ['system,', 'O'], ['RankBrain,', 'O'], ['what', 'O'], ['good', 'O'], ['sites', 'O'], ['look', 'O'], ['like,', 'O'], ['and', 'O'], ['what', 'O'], ['bad', 'O'], ['sites', 'O'], ['look', 'O'], ['like.', 'O']]
+  
+[['Similar', 'O'], ['to', 'O'], ['how', 'O'], ['they', 'O'], ['weight', 'O'], ['algorithms', 'O'], ['differently', 'O'], ['for', 'O'], ['each', 'O'], ['search', 'O'], ['result,', 'O'], ['they', 'O'], ['also', 'O'], ['realized', 'O'], ['that', 'O'], ['each', 'O'], ['vertical', 'O'], ['had', 'O'], ['different', 'O'], ['examples', 'O'], ['of', 'O'], ['good', 'O'], ['and', 'O'], ['bad', 'O'], ['sites.', 'O']]
+  
+[['This', 'O'], ['is', 'O'], ['undoubtedly', 'O'], ['because', 'O'], ['different', 'O'], ['verticals', 'O'], ['have', 'O'], ['different', 'O'], ['CRMs,', 'O'], ['different', 'O'], ['templates', 'O'], ['and', 'O'], ['different', 'O'], ['structures', 'O'], ['of', 'O'], ['data', 'O'], ['altogether.', 'O']]
+  
+[['When', 'O'], ['RankBrain', 'O'], ['operates,', 'O'], ['it', 'O'], ['is', 'O'], ['essentially', 'O'], ['learning', 'O'], ['what', 'O'], ['the', 'O'], ['correct', 'O'], ['settings', 'O'], ['are', 'O'], ['for', 'O'], ['each', 'O'], ['environment.', 'O']]
+  
+[['As', 'O'], ['you', 'O'], ['might', 'O'], ['have', 'O'], ['guessed', 'O'], ['by', 'O'], ['now,', 'O'], ['these', 'O'], ['settings', 'O'], ['are', 'O'], ['completely', 'O'], ['dependent', 'O'], ['on', 'O'], ['the', 'O'], ['vertical', 'O'], ['on', 'O'], ['whichit', 'O'], ['is', 'O'], ['operating.', 'O']]
+  
+[['So,', 'O'], ['for', 'O'], ['instance,', 'O'], ['in', 'O'], ['the', 'O'], ['health', 'O'], ['industry,', 'O'], ['Google', 'ORGANIZATION'], ['knows', 'O'], ['that', 'O'], ['a', 'O'], ['site', 'O'], ['likeWebMD.comis', 'O'], ['a', 'O'], ['reputable', 'O'], ['site', 'O'], ['that', 'O'], ['they', 'O'], ['would', 'O'], ['like', 'O'], ['to', 'O'], ['have', 'O'], ['near', 'O'], ['the', 'O'], ['top', 'O'], ['of', 'O'], ['their', 'O'], ['searchable', 'O'], ['index.', 'O']]
+  
+[['Anything', 'O'], ['that', 'O'], ['looks', 'O'], ['like', 'O'], ['the', 'O'], ['structure', 'O'], ['of', 'O'], ['WebMDs', 'O'], ['site', 'O'], ['will', 'O'], ['be', 'O'], ['associated', 'O'], ['with', 'O'], ['the', 'O'], ['good', 'O'], ['camp.', 'O']]
+  
+[['Similarly,', 'O'], ['any', 'O'], ['site', 'O'], ['that', 'O'], ['looks', 'O'], ['like', 'O'], ['the', 'O'], ['structure', 'O'], ['of', 'O'], ['a', 'O'], ['known', 'O'], ['spammy', 'O'], ['site', 'O'], ['in', 'O'], ['the', 'O'], ['health', 'O'], ['vertical', 'O'], ['will', 'O'], ['be', 'O'], ['associated', 'O'], ['with', 'O'], ['the', 'O'], ['bad', 'O'], ['camp.', 'O']]
+  
+[['As', 'O'], ['RankBrain', 'O'], ['works', 'O'], ['to', 'O'], ['group', 'O'], ['good', 'O'], ['and', 'O'], ['bad', 'O'], ['sites', 'O'], ['together,', 'O'], ['using', 'O'], ['its', 'O'], ['deep', 'O'], ['learning', 'O'], ['capabilities,', 'O'], ['what', 'O'], ['happens', 'O'], ['if', 'O'], ['you', 'O'], ['have', 'O'], ['a', 'O'], ['site', 'O'], ['that', 'O'], ['has', 'O'], ['many', 'O'], ['different', 'O'], ['industries', 'O'], ['all', 'O'], ['rolled', 'O'], ['up', 'O'], ['into', 'O'], ['one?', 'O']]
+  
+[['First,', 'O'], ['we', 'O'], ['have', 'O'], ['to', 'O'], ['discuss', 'O'], ['a', 'O'], ['bit', 'O'], ['more', 'O'], ['detail', 'O'], ['on', 'O'], ['how', 'O'], ['exactly', 'O'], ['thisdeep', 'O'], ['learningworks.', 'O']]
+  
+[['Before', 'O'], ['grouping', 'O'], ['together', 'O'], ['sites', 'O'], ['into', 'O'], ['a', 'O'], ['good', 'O'], ['and', 'O'], ['bad', 'O'], ['bucket,', 'O'], ['RankBrain', 'O'], ['must', 'O'], ['first', 'O'], ['determine', 'O'], ['what', 'O'], ['each', 'O'], ['sites', 'O'], ['classification', 'O'], ['is.', 'O']]
+  
+[['Sites', 'O'], ['likeNike.comandWebMD.comare', 'O'], ['pretty', 'O'], ['easy.', 'O']]
+  
+[['While', 'O'], ['there', 'O'], ['are', 'O'], ['many', 'O'], ['different', 'O'], ['sub-categories', 'O'], ['on', 'O'], ['each', 'O'], ['site,', 'O'], ['the', 'O'], ['general', 'O'], ['category', 'O'], ['is', 'O'], ['very', 'O'], ['straightforward.', 'O']]
+  
+[['These', 'O'], ['types', 'O'], ['of', 'O'], ['sites', 'O'], ['are', 'O'], ['easily', 'O'], ['classifiable.', 'O']]
+  
+[['But', 'O'], ['what', 'O'], ['about', 'O'], ['sites', 'O'], ['that', 'O'], ['have', 'O'], ['many', 'O'], ['different', 'O'], ['categories?', 'O']]
+  
+[['A', 'O'], ['good', 'O'], ['example', 'O'], ['of', 'O'], ['these', 'O'], ['types', 'O'], ['of', 'O'], ['sites', 'O'], ['are', 'O'], ['the', 'O'], ['How-To', 'O'], ['sites.', 'O']]
+  
+[['Sites', 'O'], ['that', 'O'], ['typically', 'O'], ['have', 'O'], ['many', 'O'], ['broad', 'O'], ['categories', 'O'], ['of', 'O'], ['information.', 'O']]
+  
+[['In', 'O'], ['these', 'O'], ['instances,', 'O'], ['the', 'O'], ['deep', 'O'], ['learning', 'O'], ['process', 'O'], ['breaks', 'O'], ['down.', 'O']]
+  
+[['Which', 'O'], ['training', 'O'], ['data', 'O'], ['does', 'O'], ['Google', 'ORGANIZATION'], ['use', 'O'], ['on', 'O'], ['these', 'O'], ['sites?', 'O']]
+  
+[['The', 'O'], ['answer', 'O'], ['is:', 'O'], ['It', 'O'], ['can', 'O'], ['be', 'O'], ['seemingly', 'O'], ['random.', 'O']]
+  
+[['It', 'O'], ['may', 'O'], ['choose', 'O'], ['one', 'O'], ['category', 'O'], ['or', 'O'], ['another.', 'O']]
+  
+[['Forwell-known', 'O'], ['sites,', 'O'], ['like', 'O'], ['Wikipedia,', 'O'], ['Google', 'ORGANIZATION'], ['can', 'O'], ['opt-out', 'O'], ['of', 'O'], ['this', 'O'], ['classification', 'O'], ['process', 'O'], ['altogether,', 'O'], ['to', 'O'], ['ensure', 'O'], ['that', 'O'], ['the', 'O'], ['deep', 'O'], ['learning', 'O'], ['process', 'O'], ['doesnt', 'O'], ['undercut', 'O'], ['their', 'O'], ['existing', 'O'], ['search', 'O'], ['experience', 'O'], ['(aka', 'O'], ['too', 'O'], ['big', 'O'], ['to', 'O'], ['fail).', 'O']]
+  
+[['But', 'O'], ['for', 'O'], ['lesser-known', 'O'], ['entities,', 'O'], ['what', 'O'], ['will', 'O'], ['happen?', 'O']]
+  
+[['The', 'O'], ['answer', 'O'], ['is,', 'O'], ['Who', 'O'], ['knows?', 'O']]
+  
+[['Presumably,', 'O'], ['this', 'O'], ['machine', 'O'], ['learning', 'O'], ['process', 'O'], ['has', 'O'], ['an', 'O'], ['automated', 'O'], ['way', 'O'], ['of', 'O'], ['classifying', 'O'], ['each', 'O'], ['site', 'O'], ['before', 'O'], ['attempting', 'O'], ['to', 'O'], ['compare', 'O'], ['it', 'O'], ['to', 'O'], ['other', 'O'], ['sites.', 'O']]
+  
+[['Lets', 'O'], ['say', 'O'], ['a', 'O'], ['How-To', 'O'], ['site', 'O'], ['looks', 'O'], ['just', 'O'], ['like', 'O'], ['WebMDs', 'O'], ['site.', 'O']]
+  
+[['Great,', 'O'], ['right?', 'O']]
+  
+[['Well,', 'O'], ['if', 'O'], ['the', 'O'], ['classification', 'O'], ['process', 'O'], ['thinks', 'O'], ['this', 'O'], ['site', 'O'], ['is', 'O'], ['about', 'O'], ['shoes,', 'O'], ['then', 'O'], ['it', 'O'], ['is', 'O'], ['going', 'O'], ['to', 'O'], ['be', 'O'], ['comparing', 'O'], ['the', 'O'], ['site', 'O'], ['to', 'O'], ['Nikes', 'O'], ['site', 'O'], ['structure,', 'O'], ['not', 'O'], ['WebMDs.', 'O']]
+  
+[['It', 'O'], ['just', 'O'], ['might', 'O'], ['turn', 'O'], ['out', 'O'], ['that', 'O'], ['their', 'O'], ['site', 'O'], ['structure', 'O'], ['looks', 'O'], ['a', 'O'], ['lot', 'O'], ['like', 'O'], ['a', 'O'], ['spammy', 'O'], ['shoe', 'O'], ['site,', 'O'], ['as', 'O'], ['opposed', 'O'], ['to', 'O'], ['a', 'O'], ['reputable', 'O'], ['WebMD', 'O'], ['site,', 'O'], ['in', 'O'], ['which', 'O'], ['case', 'O'], ['the', 'O'], ['overly', 'O'], ['generalized', 'O'], ['site', 'O'], ['could', 'O'], ['easily', 'O'], ['be', 'O'], ['flagged', 'O'], ['as', 'O'], ['SPAM.', 'O']]
+  
+[['If', 'O'], ['the', 'O'], ['How-To', 'O'], ['site', 'O'], ['had', 'O'], ['separate', 'O'], ['domains,', 'O'], ['then', 'O'], ['it', 'O'], ['would', 'O'], ['be', 'O'], ['easy', 'O'], ['to', 'O'], ['make', 'O'], ['each', 'O'], ['genre', 'O'], ['look', 'O'], ['like', 'O'], ['the', 'O'], ['best', 'O'], ['of', 'O'], ['that', 'O'], ['industry.', 'O']]
+  
+[['Stay', 'O'], ['niche.', 'O']]
+  
+[['Lets', 'O'], ['take', 'O'], ['a', 'O'], ['look', 'O'], ['at', 'O'], ['how', 'O'], ['this', 'O'], ['affects', 'O'], ['backlinks.', 'O']]
+  
+[['Based', 'O'], ['on', 'O'], ['the', 'O'], ['classification', 'O'], ['procedure', 'O'], ['above,', 'O'], ['it', 'O'], ['is', 'O'], ['more', 'O'], ['important', 'O'], ['than', 'O'], ['ever', 'O'], ['to', 'O'], ['stickwithin', 'O'], ['your', 'O'], ['linking', 'O'], ['neighborhood,', 'O'], ['as', 'O'], ['RankBrain', 'O'], ['will', 'O'], ['know', 'O'], ['if', 'O'], ['something', 'O'], ['is', 'O'], ['different', 'O'], ['from', 'O'], ['similar', 'O'], ['backlink', 'O'], ['profiles', 'O'], ['in', 'O'], ['your', 'O'], ['vertical.', 'O']]
+  
+[['Lets', 'O'], ['take', 'O'], ['the', 'O'], ['same', 'O'], ['example', 'O'], ['as', 'O'], ['above.', 'O']]
+  
+[['Say', 'O'], ['a', 'O'], ['company', 'O'], ['has', 'O'], ['a', 'O'], ['site', 'O'], ['about', 'O'], ['shoes.', 'O']]
+  
+[['We', 'O'], ['know', 'O'], ['that', 'O'], ['RankBrains', 'O'], ['deep', 'O'], ['learning', 'O'], ['process', 'O'], ['will', 'O'], ['attempt', 'O'], ['to', 'O'], ['compare', 'O'], ['each', 'O'], ['aspect', 'O'], ['of', 'O'], ['this', 'O'], ['site', 'O'], ['with', 'O'], ['the', 'O'], ['best', 'O'], ['and', 'O'], ['worst', 'O'], ['sites', 'O'], ['of', 'O'], ['the', 'O'], ['shoe', 'O'], ['industry.', 'O']]
+  
+[['So,', 'O'], ['naturally,', 'O'], ['the', 'O'], ['backlink', 'O'], ['profile', 'O'], ['of', 'O'], ['this', 'O'], ['site', 'O'], ['will', 'O'], ['be', 'O'], ['compared', 'O'], ['to', 'O'], ['the', 'O'], ['backlink', 'O'], ['profiles', 'O'], ['of', 'O'], ['these', 'O'], ['best', 'O'], ['and', 'O'], ['worst', 'O'], ['sites.', 'O']]
+  
+[['Lets', 'O'], ['also', 'O'], ['say', 'O'], ['that', 'O'], ['a', 'O'], ['typical', 'O'], ['reputable', 'O'], ['shoe', 'O'], ['site', 'O'], ['has', 'O'], ['backlinks', 'O'], ['from', 'O'], ['the', 'O'], ['following', 'O'], ['neighborhoods:', 'O'], ['Now', 'O'], ['lets', 'O'], ['say', 'O'], ['that', 'O'], ['the', 'O'], ['companys', 'O'], ['SEO', 'O'], ['team', 'O'], ['decides', 'O'], ['to', 'O'], ['start', 'O'], ['pursuing', 'O'], ['backlinks', 'O'], ['from', 'O'], ['allthese', 'O'], ['neighborhoods,plus', 'O'], ['a', 'O'], ['new', 'O'], ['neighborhood', 'O'], ['from', 'O'], ['one', 'O'], ['of', 'O'], ['the', 'O'], ['CEOs', 'O'], ['previous', 'O'], ['connections', 'O'], ['to', 'O'], ['the', 'O'], ['auto', 'O'], ['industry.', 'O']]
+  
+[['They', 'O'], ['are', 'O'], ['smart', 'O'], ['about', 'O'], ['it', 'O'], ['as', 'O'], ['well:', 'O'], ['They', 'O'], ['construct', 'O'], ['a', 'O'], ['cross-marketing', 'O'], ['free', 'O'], ['shoe', 'O'], ['offer', 'O'], ['for', 'O'], ['all', 'O'], ['new', 'O'], ['leases', 'O'], ['page', 'O'], ['that', 'O'], ['is', 'O'], ['created', 'O'], ['on', 'O'], ['the', 'O'], ['auto', 'O'], ['site,', 'O'], ['which', 'O'], ['then', 'O'], ['links', 'O'], ['to', 'O'], ['their', 'O'], ['new', 'O'], ['type', 'O'], ['of', 'O'], ['shoe.', 'O']]
+  
+[['Totally', 'O'], ['relevant,', 'O'], ['right?', 'O']]
+  
+[['Well,', 'O'], ['RankBrain', 'O'], ['is', 'O'], ['going', 'O'], ['to', 'O'], ['see', 'O'], ['this', 'O'], ['and', 'O'], ['notice', 'O'], ['that', 'O'], ['this', 'O'], ['backlink', 'O'], ['profile', 'O'], ['looks', 'O'], ['a', 'O'], ['lot', 'O'], ['different', 'O'], ['than', 'O'], ['the', 'O'], ['typical', 'O'], ['reputable', 'O'], ['shoe', 'O'], ['site.', 'O']]
+  
+[['Worse', 'O'], ['yet,', 'O'], ['it', 'O'], ['finds', 'O'], ['that', 'O'], ['a', 'O'], ['bunch', 'O'], ['of', 'O'], ['spammy', 'O'], ['shoe', 'O'], ['sites', 'O'], ['also', 'O'], ['have', 'O'], ['a', 'O'], ['backlink', 'O'], ['profile', 'O'], ['from', 'O'], ['auto', 'O'], ['sites.', 'O']]
+  
+[['Uh', 'O'], ['oh.', 'O']]
+  
+[['And', 'O'], ['just', 'O'], ['like', 'O'], ['that,', 'O'], ['without', 'O'], ['even', 'O'], ['knowing', 'O'], ['what', 'O'], ['is', 'O'], ['the', 'O'], ['correct', 'O'], ['backlink', 'O'], ['profile,', 'O'], ['RankBrain', 'O'], ['has', 'O'], ['sniffed', 'O'], ['out', 'O'], ['what', 'O'], ['is', 'O'], ['good', 'O'], ['and', 'O'], ['what', 'O'], ['is', 'O'], ['bad', 'O'], ['for', 'O'], ['its', 'O'], ['search', 'O'], ['engine', 'O'], ['results.', 'O']]
+  
+[['The', 'O'], ['new', 'O'], ['shoe', 'O'], ['site', 'O'], ['is', 'O'], ['flagged,', 'O'], ['and', 'O'], ['their', 'O'], ['organic', 'O'], ['traffic', 'O'], ['takes', 'O'], ['a', 'O'], ['nosedive.', 'O']]
+  
+[['As', 'O'], ['we', 'O'], ['can', 'O'], ['see', 'O'], ['from', 'O'], ['the', 'O'], ['previous', 'O'], ['discussion', 'O'], ['on', 'O'], ['the', 'O'], ['Law', 'O'], ['of', 'O'], ['Accelerating', 'O'], ['Returns,', 'O'], ['RankBrain', 'O'], ['and', 'O'], ['other', 'O'], ['forms', 'O'], ['of', 'O'], ['artificial', 'O'], ['intelligence', 'O'], ['will', 'O'], ['at', 'O'], ['some', 'O'], ['point', 'O'], ['surpass', 'O'], ['the', 'O'], ['human', 'O'], ['brain.', 'O']]
+  
+[['And', 'O'], ['at', 'O'], ['this', 'O'], ['point,', 'O'], ['nobody', 'O'], ['knows', 'O'], ['where', 'O'], ['this', 'O'], ['technology', 'O'], ['will', 'O'], ['lead', 'O'], ['us.', 'O']]
+  
+[['Some', 'O'], ['things', 'O'], ['are', 'O'], ['certain,', 'O'], ['though:', 'O'], ['In', 'O'], ['some', 'O'], ['ways,', 'O'], ['the', 'O'], ['deep', 'O'], ['learning', 'O'], ['methodology', 'O'], ['makes', 'O'], ['things', 'O'], ['simpler', 'O'], ['for', 'O'], ['SEOs.', 'O']]
+  
+[['Knowing', 'O'], ['that', 'O'], ['RankBrain', 'O'], ['and', 'O'], ['similar', 'O'], ['technologies', 'O'], ['are', 'O'], ['almost', 'O'], ['on', 'O'], ['par', 'O'], ['with', 'O'], ['a', 'O'], ['human,', 'O'], ['the', 'O'], ['rule', 'O'], ['of', 'O'], ['law', 'O'], ['is', 'O'], ['clear:', 'O'], ['There', 'O'], ['are', 'O'], ['no', 'O'], ['more', 'O'], ['loopholes.', 'O']]
+  
+[['In', 'O'], ['other', 'O'], ['ways,', 'O'], ['things', 'O'], ['are', 'O'], ['a', 'O'], ['bit', 'O'], ['harder.', 'O']]
+  
+[['The', 'O'], ['field', 'O'], ['of', 'O'], ['SEO', 'O'], ['will', 'O'], ['continue', 'O'], ['to', 'O'], ['become', 'O'], ['extremely', 'O'], ['technical.', 'O']]
+  
+[['Analytics', 'O'], ['and', 'O'], ['big', 'O'], ['data', 'O'], ['are', 'O'], ['the', 'O'], ['order', 'O'], ['of', 'O'], ['the', 'O'], ['day,', 'O'], ['and', 'O'], ['any', 'O'], ['SEO', 'O'], ['that', 'O'], ['isnt', 'O'], ['familiar', 'O'], ['with', 'O'], ['these', 'O'], ['approaches', 'O'], ['has', 'O'], ['a', 'O'], ['lot', 'O'], ['of', 'O'], ['catching', 'O'], ['up', 'O'], ['to', 'O'], ['do.', 'O']]
+  
+[['Those', 'O'], ['of', 'O'], ['you', 'O'], ['whohave', 'O'], ['these', 'O'], ['skills', 'O'], ['can', 'O'], ['look', 'O'], ['forward', 'O'], ['to', 'O'], ['a', 'O'], ['big', 'O'], ['payday.', 'O']]
+  
+  
+  
+Article name:  VMware's new cloud strategy: play nice with AWS, Azure, IBM
+Article number:  7
+[["VMware's", 'O'], ['new', 'O'], ['cloud', 'O'], ['strategy:', 'O'], ['play', 'O'], ['nice', 'O'], ['with', 'O'], ['AWS,', 'O'], ['Azure,', 'O'], ['IBM', 'ORGANIZATION'], ['VMware', 'O'], ['has', 'O'], ['announced', 'O'], ['a', 'O'], ['change', 'O'], ['in', 'O'], ['its', 'O'], ['cloud', 'O'], ['strategy,cosying', 'O'], ['up', 'O'], ['to', 'O'], ['third-party', 'O'], ['public', 'O'], ['cloud', 'O'], ['providers', 'O'], ['that', 'O'], ['compete', 'O'], ['with', 'O'], ['its', 'O'], ['native', 'O'], ['vCloud', 'O'], ['Air', 'O'], ['offering.', 'O']]
+  
+[['The', 'O'], ["company's", 'O'], ['new', 'O'], ['Cross-Cloud', 'O'], ['Architecture,', 'O'], ['which', 'O'], ['was', 'O'], ['announced', 'O'], ['on', 'O'], ['the', 'O'], ['first', 'O'], ['day', 'O'], ['of', 'O'], ['VMworld', 'O'], ['2016', 'O'], ['in', 'O'], ['Las', 'O'], ['Vegas,allows', 'O'], ['businesses', 'O'], ['to', 'O'], ['manage,', 'O'], ['connect,', 'O'], ['govern', 'O'], ['and', 'O'], ['secure', 'O'], ['applications', 'O'], ['running', 'O'], ['across', 'O'], ['multiple', 'O'], ['cloud', 'O'], ['environments,', 'O'], ['including', 'O'], ['private', 'O'], ['clouds', 'O'], ['and', 'O'], ['public', 'O'], ['services', 'O'], ['such', 'O'], ['asAmazon', 'O'], ['Web', 'O'], ['Services,', 'O'], ['Microsoft', 'ORGANIZATION'], ['Azure,', 'O'], ['IBM', 'O'], ['Softlayer', 'O'], ['and', 'O'], ['Google', 'ORGANIZATION'], ['Cloud', 'O'], ['Platform.', 'O']]
+  
+[['Previews', 'O'], ['of', 'O'], ['the', 'O'], ['new', 'O'], ['Cross-Cloud', 'LOCATION'], ['services', 'O'], ['will', 'O'], ['take', 'O'], ['place', 'O'], ['this', 'O'], ['week', 'O'], ['at', 'O'], ['VMworld,', 'O'], ['although', 'O'], ['no', 'O'], ['availability', 'O'], ['date', 'O'], ['has', 'O'], ['yet', 'O'], ['been', 'O'], ['announced.', 'O']]
+  
+[['VMware', 'ORGANIZATION'], ['is', 'O'], ['pitching', 'O'], ['its', 'O'], ['latest', 'O'], ['cloud', 'O'], ['strategy', 'O'], ['as', 'O'], ['supporting', 'O'], ['any', 'O'], ['application', 'O'], ['on', 'O'], ['any', 'O'], ['device', 'O'], ['and', 'O'], ['on', 'O'], ['any', 'O'], ['cloud.', 'O']]
+  
+[['The', 'O'], ['company', 'O'], ['has', 'O'], ['struggled', 'O'], ['to', 'O'], ['gain', 'O'], ['market', 'O'], ['share', 'O'], ['in', 'O'], ['the', 'O'], ['cloud', 'O'], ['space,', 'O'], ['with', 'O'], ['its', 'O'], ['vCloud', 'O'], ['Air', 'O'], ['offering', 'O'], ['lagging', 'O'], ['well', 'O'], ['behind', 'O'], ['market', 'O'], ['leaders', 'O'], ['AWS', 'ORGANIZATION'], ['and', 'O'], ['Azure.', 'O']]
+  
+[['Taking', 'O'], ['a', 'O'], ['positive', 'O'], ['spin', 'O'], ['on', 'O'], ['things,', 'O'], ['Raghu', 'O'], ['Raghuram,', 'O'], ['general', 'O'], ['manager', 'O'], ['of', 'O'], ["VMware's", 'O'], ['software', 'O'], ['defined', 'O'], ['data', 'O'], ['centre', 'O'], ['division,', 'O'], ['said:', 'O'], ["''Customers", 'O'], ['foresee', 'O'], ['relying', 'O'], ['on', 'O'], ['multiple', 'O'], ['public', 'O'], ['and', 'O'], ['private', 'O'], ['clouds', 'O'], ['to', 'O'], ['run', 'O'], ['their', 'O'], ['applications,', 'O'], ['but', 'O'], ['are', 'O'], ['daunted', 'O'], ['by', 'O'], ['the', 'O'], ['challenge', 'O'], ['of', 'O'], ['managing', 'O'], ['and', 'O'], ['securing', 'O'], ['applications', 'O'], ['across', 'O'], ['diverse', 'O'], ['cloud', 'O'], ['platforms.', 'O']]
+  
+[["''VMware", 'O'], ['is', 'O'], ['delivering', 'O'], ['cloud', 'O'], ['freedom', 'O'], ['and', 'O'], ['control', 'O'], ['by', 'O'], ['providing', 'O'], ['a', 'O'], ['common', 'O'], ['operating', 'O'], ['environment', 'O'], ['for', 'O'], ['all', 'O'], ['clouds', 'O'], ['with', 'O'], ['our', 'O'], ['unique', 'O'], ['Cross-Cloud', 'O'], ["Architecture.''", 'O']]
+  
+[['Also', 'O'], ['announced', 'O'], ['overnight', 'O'], ['at', 'O'], ['Las', 'LOCATION'], ['Vegas', 'LOCATION'], ['was', 'O'], ['Cloud', 'O'], ['Foundation,', 'O'], ['a', 'O'], ['software-defined', 'O'], ['data', 'O'], ['centre', 'O'], ['platform,', 'O'], ['using', 'O'], ['vSphere,', 'O'], ['VSAN', 'O'], ['and', 'O'], ['NSX,', 'O'], ['that', 'O'], ['works', 'O'], ['on', 'O'], ['both', 'O'], ['private', 'O'], ['and', 'O'], ['public', 'O'], ['clouds,', 'O'], ['although', 'O'], ['it', 'O'], ['will', 'O'], ['be', 'O'], ['only', 'O'], ['be', 'O'], ['compatible', 'O'], ['with', 'O'], ['the', 'O'], ['IBM', 'ORGANIZATION'], ['cloud', 'O'], ['at', 'O'], ['launch.', 'O']]
+  
+[['Cloud', 'ORGANIZATION'], ['Foundation', 'ORGANIZATION'], ['will', 'O'], ['be', 'O'], ['available', 'O'], ['from', 'O'], ['the', 'O'], ['third', 'O'], ['quarter', 'O'], ['of', 'O'], ['2016.', 'O']]
+  
+[['Cloud', 'ORGANIZATION'], ['Foundation', 'ORGANIZATION'], ['for', 'O'], ['private', 'O'], ['clouds', 'O'], ['is', 'O'], ['compatible', 'O'], ['with', 'O'], ['virtual', 'O'], ['SAN', 'O'], ['nodes', 'O'], ['from', 'O'], ['Dell,', 'ORGANIZATION'], ['Hewlett', 'ORGANIZATION'], ['Packard', 'ORGANIZATION'], ['Enterprise', 'ORGANIZATION'], ['and', 'O'], ['QCT.', 'O']]
+  
+[['Despite', 'O'], ['executive', 'O'], ['departures', 'O'], ['and', 'O'], ['development', 'O'], ['cutbacks,', 'O'], ['VMware', 'ORGANIZATION'], ['said', 'O'], ['its', 'O'], ['native', 'O'], ['offerings,', 'O'], ['vCloud', 'O'], ['Air', 'O'], ['and', 'O'], ['vCloud', 'O'], ['Air', 'O'], ['Network,', 'O'], ["''remain", 'O'], ['critical', 'O'], ['parts', 'O'], ['of', 'O'], ['the', 'O'], ["company's", 'O'], ['hybrid', 'O'], ['cloud', 'O'], ["strategy''.", 'O']]
+  
+[['Available', 'O'], ['immediately', 'O'], ['is', 'O'], ['vCloud', 'O'], ['Availability', 'O'], ['for', 'O'], ['vCloud', 'O'], ['Director,', 'O'], ['a', 'O'], ['cloud-based', 'O'], ['disaster', 'O'], ['recovery', 'O'], ['service.', 'O']]
+  
+[['Coming', 'O'], ['in', 'O'], ['the', 'O'], ['third', 'O'], ['quarter', 'O'], ['is', 'O'], ['version', 'O'], ['2.0', 'O'], ['of', 'O'], ['vCloud', 'O'], ['Air', 'O'], ['Hybrid', 'O'], ['Cloud', 'O'], ['Manager', 'O'], ['that', 'O'], ['allows', 'O'], ['for', 'O'], ['downtime-free', 'O'], ['migration', 'O'], ['of', 'O'], ['applications', 'O'], ['from', 'O'], ['private', 'O'], ['clouds', 'O'], ['to', 'O'], ['vCloud', 'O'], ['Air.', 'O']]
+  
+[['This', 'O'], ['author', 'O'], ['is', 'O'], ['attending', 'O'], ['VMworld', 'O'], ['as', 'O'], ['a', 'O'], ['guest', 'O'], ['of', 'O'], ['VMware.', 'O']]
+  
+  
+  
+Article name:  Apple Maps is the reason the iOS public beta exists
+Article number:  8
+[['Apple', 'O'], ['Maps', 'O'], ['is', 'O'], ['the', 'O'], ['reason', 'O'], ['the', 'O'], ['iOS', 'O'], ['public', 'O'], ['beta', 'O'], ['exists', 'O'], ['Apple', 'ORGANIZATION'], ['is', 'O'], ['famous', 'O'], ['for', 'O'], ['its', 'O'], ['secrecy,', 'O'], ['but', 'O'], ['keeping', 'O'], ['its', 'O'], ['products', 'O'], ['under', 'O'], ['wraps', 'O'], ['has', 'O'], ['some', 'O'], ['downsides', 'O'], ['most', 'O'], ['notably', 'O'], ['the', 'O'], ['Apple', 'O'], ['Maps', 'O'], ['debacle', 'O'], ['of', 'O'], ['2012.', 'O']]
+  
+[['The', 'O'], ['company', 'O'], ['tested', 'O'], ['Maps', 'O'], ['internally', 'O'], ['in', 'O'], ['Cupertino,', 'O'], ['but', 'O'], ['didnt', 'O'], ['realise', 'O'], ['until', 'O'], ['it', 'O'], ['was', 'O'], ['too', 'O'], ['late', 'O'], ['that', 'O'], ['its', 'O'], ['mappingdatawasnt', 'O'], ['all', 'O'], ['that', 'O'], ['accurate', 'O'], ['beyond', 'O'], ['the', 'O'], ['radius', 'O'], ['around', 'O'], ['1', 'O'], ['Infinite', 'O'], ['Loop.', 'O']]
+  
+[['We', 'O'], ['made', 'O'], ['significant', 'O'], ['changes', 'O'], ['to', 'O'], ['all', 'O'], ['of', 'O'], ['ourdevelopmentprocesses', 'O'], ['because', 'O'], ['of', 'O'], ['it,', 'O'], ['Apples', 'O'], ['Eddy', 'O'], ['Cue', 'O'], ['toldFast', 'O'], ['Company', 'O'], ['in', 'O'], ['a', 'O'], ['wide-ranging', 'O'], ['interview.', 'O']]
+  
+[['To', 'O'], ['all', 'O'], ['of', 'O'], ['us', 'O'], ['living', 'O'], ['in', 'O'], ['Cupertino,', 'O'], ['the', 'O'], ['maps', 'O'], ['for', 'O'], ['here', 'O'], ['were', 'O'], ['pretty', 'O'], ['darn', 'O'], ['good.', 'O']]
+  
+[['Right?', 'O']]
+  
+[['So', 'O'], ['the', 'O'], ['problem', 'O'], ['wasnt', 'O'], ['obvious', 'O'], ['to', 'O'], ['us.', 'O']]
+  
+[['We', 'O'], ['were', 'O'], ['never', 'O'], ['able', 'O'], ['to', 'O'], ['take', 'O'], ['it', 'O'], ['out', 'O'], ['to', 'O'], ['a', 'O'], ['large', 'O'], ['number', 'O'], ['of', 'O'], ['users', 'O'], ['to', 'O'], ['get', 'O'], ['that', 'O'], ['feedback.', 'O']]
+  
+[['Now', 'O'], ['we', 'O'], ['do.', 'O']]
+  
+[['The', 'O'], ['reason', 'O'], ['you', 'O'], ['as', 'O'], ['a', 'O'], ['customer', 'O'], ['are', 'O'], ['going', 'O'], ['to', 'O'], ['be', 'O'], ['able', 'O'], ['to', 'O'], ['test', 'O'], ['iOS', 'O'], ['is', 'O'], ['because', 'O'], ['of', 'O'], ['Maps,', 'O'], ['he', 'O'], ['continued.', 'O']]
+  
+[['Apple', 'ORGANIZATION'], ['launched', 'O'], ['itsiOS', 'O'], ['public', 'O'], ['beta', 'O'], ['programwith', 'O'], ['iOS', 'O'], ['9', 'O'], ['last', 'O'], ['winter,', 'O'], ['and', 'O'], ['has', 'O'], ['continued', 'O'], ['with', 'O'], ['the', 'O'], ['program', 'O'], ['in', 'O'], ['advance', 'O'], ['of', 'O'], ['iOS', 'O'], ['10s', 'O'], ['public', 'O'], ['debut', 'O'], ['this', 'O'], ['spring.', 'O']]
+  
+[['The', 'O'], ['beta', 'O'], ['program', 'O'], ['allows', 'O'], ['anyone', 'O'], ['to', 'O'], ['sign', 'O'], ['up', 'O'], ['and', 'O'], ['test', 'O'], ['iOS', 'O'], ['or', 'O'], ['macOS', 'O'], ['andreport', 'O'], ['feedback', 'O'], ['to', 'O'], ['Apple.', 'O']]
+  
+[['The', 'O'], ['company', 'O'], ['has', 'O'], ['bigger', 'O'], ['plans', 'O'], ['for', 'O'], ['Maps', 'O'], ['now', 'O'], ['that', 'O'], ['the', 'O'], ['app', 'O'], ['is', 'O'], ['stable', 'O'], ['and', 'O'], ['reliable.', 'O']]
+  
+[['Cue', 'O'], ['and', 'O'], ['CEO', 'O'], ['Tim', 'PERSON'], ['Cook', 'PERSON'], ['hinted', 'O'], ['at', 'O'], ['a', 'O'], ['bigger', 'O'], ['role', 'O'], ['for', 'O'], ['artificial', 'O'], ['intelligence', 'O'], ['in', 'O'], ['the', 'O'], ['Fast', 'O'], ['Company', 'O'], ['interview,', 'O'], ['though', 'O'], ['they', 'O'], ['wouldnt', 'O'], ['say', 'O'], ['exactly', 'O'], ['what', 'O'], ['Maps', 'O'], ['has', 'O'], ['in', 'O'], ['store.', 'O']]
+  
+[['Artificial', 'O'], ['intelligence', 'O'], ['is', 'O'], ['the', 'O'], ['trend', 'O'], ['du', 'O'], ['jour', 'O'], ['in', 'O'], ['Silicon', 'LOCATION'], ['Valley.', 'LOCATION']]
+  
+[['Apples', 'O'], ['chief', 'O'], ['rivals,', 'O'], ['Microsoft', 'ORGANIZATION'], ['and', 'O'], ['Google,', 'O'], ['are', 'O'], ['making', 'O'], ['big', 'O'], ['bets', 'O'], ['on', 'O'], ['AI', 'O'], ['with', 'O'], ['their', 'O'], ['own', 'O'], ['voice', 'O'], ['assistants', 'O'], ['(Cortana', 'O'], ['and', 'O'], ['Google', 'ORGANIZATION'], ['Now,', 'O'], ['respectively),', 'O'], ['but', 'O'], ['its', 'O'], ['Amazons', 'ORGANIZATION'], ['Alexa', 'ORGANIZATION'], ['that', 'O'], ['has', 'O'], ['surprised', 'O'], ['everyone.', 'O']]
+  
+[['Amazon', 'ORGANIZATION'], ['moved', 'O'], ['quickly', 'O'], ['to', 'O'], ['take', 'O'], ['Alexa', 'PERSON'], ['beyond', 'O'], ['its', 'O'], ['own', 'O'], ['hardware,', 'O'], ['the', 'O'], ['Echo,', 'O'], ['and', 'O'], ['open', 'O'], ['up', 'O'], ['the', 'O'], ['assistant', 'O'], ['toother', 'O'], ['manufacturers.', 'O']]
+  
+[['Siris', 'PERSON'], ['launch', 'O'], ['predates', 'O'], ['Cortana,', 'O'], ['Google', 'ORGANIZATION'], ['Now', 'O'], ['and', 'O'], ['Alexa,', 'O'], ['but', 'O'], ['critics', 'O'], ['have', 'O'], ['said', 'O'], ['Apple', 'ORGANIZATION'], ['has', 'O'], ['taken', 'O'], ['too', 'O'], ['long', 'O'], ['to', 'O'], ['improve', 'O'], ['its', 'O'], ['voice', 'O'], ['assistant.Siriis', 'O'], ['finally', 'O'], ['coming', 'O'], ['to', 'O'], ['the', 'O'], ['Mac', 'O'], ['this', 'O'], ['spring,', 'O'], ['and', 'O'], ['Apple', 'ORGANIZATION'], ['opened', 'O'], ['its', 'O'], ['assistant', 'O'], ['to', 'O'], ['third-party', 'O'], ['apps', 'O'], ['in', 'O'], ['June.', 'LOCATION']]
+  
+[['The', 'O'], ['results', 'O'], ['of', 'O'], ['thatSiri', 'O'], ['APIwill', 'O'], ['come', 'O'], ['to', 'O'], ['iOS', 'O'], ['10', 'O'], ['next', 'O'], ['month.', 'O']]
+  
+[['Cue,', 'O'], ['Apples', 'O'], ['senior', 'O'], ['vice', 'O'], ['president', 'O'], ['of', 'O'], ['software', 'O'], ['and', 'O'], ['services,', 'O'], ['indicated', 'O'], ['that', 'O'], ['Apple', 'ORGANIZATION'], ['is', 'O'], ['moving', 'O'], ['cautiously', 'O'], ['with', 'O'], ['AI', 'O'], ['because', 'O'], ['theres', 'O'], ['still', 'O'], ['a', 'O'], ['gap', 'O'], ['between', 'O'], ['what', 'O'], ['is', 'O'], ['possible', 'O'], ['and', 'O'], ['what', 'O'], ['is', 'O'], ['useful.', 'O']]
+  
+[['Youre', 'O'], ['trying', 'O'], ['to', 'O'], ['determine', 'O'], ['what', 'O'], ['are', 'O'], ['the', 'O'], ['features,', 'O'], ['what', 'O'], ['are', 'O'], ['the', 'O'], ['ways', 'O'], ['it', 'O'], ['can', 'O'], ['work', 'O'], ['really', 'O'], ['well,', 'O'], ['what', 'O'], ['are', 'O'], ['customers', 'O'], ['looking', 'O'], ['for', 'O'], ['and', 'O'], ['what', 'O'], ['are', 'O'], ['the', 'O'], ['things', 'O'], ['you', 'O'], ['can', 'O'], ['do', 'O'], ['that', 'O'], ['are', 'O'], ['going', 'O'], ['to', 'O'], ['improve', 'O'], ['their', 'O'], ['lives,', 'O'], ['Cue', 'O'], ['told', 'O'], ['Fast', 'O'], ['Company.', 'O']]
+  
+[['Cook', 'O'], ['agreed:People', 'O'], ['like', 'O'], ['things', 'O'], ['they', 'O'], ['can', 'O'], ['do', 'O'], ['now,', 'O'], ['not', 'O'], ['just', 'O'], ['think', 'O'], ['about.', 'O']]
+  
+[['Ive', 'O'], ['been', 'O'], ['thinking', 'O'], ['aboutThe', 'O'], ['Jetsonssince', 'O'], ['I', 'O'], ['was', 'O'], ['a', 'O'], ['kid.', 'O']]
+  
+[['But', 'O'], ['occasionally', 'O'], ['you', 'O'], ['wantThe', 'O'], ['Jetsonsto', 'O'], ['come', 'O'], ['to', 'O'], ['reality.', 'O']]
+  
+[['Thats', 'O'], ['what', 'O'], ['Apple', 'ORGANIZATION'], ['is', 'O'], ['so', 'O'], ['great', 'O'], ['at:', 'O'], ['productising', 'O'], ['things', 'O'], ['and', 'O'], ['bringing', 'O'], ['them', 'O'], ['to', 'O'], ['you,', 'O'], ['so', 'O'], ['you', 'O'], ['can', 'O'], ['be', 'O'], ['a', 'O'], ['part', 'O'], ['of', 'O'], ['it.', 'O']]
+  
+[['Thats', 'O'], ['why', 'O'], ['Apples', 'O'], ['AI', 'O'], ['efforts', 'O'], ['are', 'O'], ['subtle,', 'O'], ['for', 'O'], ['now.', 'O']]
+  
+[['Siris', 'PERSON'], ['expanded', 'O'], ['powers', 'O'], ['andfacial', 'O'], ['recognition', 'O'], ['in', 'O'], ['Photosare', 'LOCATION'], ['two', 'O'], ['examples', 'O'], ['coming', 'O'], ['to', 'O'], ['iOS', 'O'], ['and', 'O'], ['macOS', 'O'], ['this', 'O'], ['spring.', 'O']]
+  
+[['But', 'O'], ['expect', 'O'], ['big', 'O'], ['things', 'O'], ['down', 'O'], ['the', 'O'], ['line,', 'O'], ['especially', 'O'], ['if', 'O'], ['Apple', 'ORGANIZATION'], ['keeps', 'O'], ['acquiring', 'O'], ['machine', 'O'], ['learning', 'O'], ['and', 'O'], ['artificial', 'O'], ['intelligence', 'O'], ['startups', 'O'], ['like', 'O'], ['its', 'O'], ['recentUS$200', 'O'], ['million', 'O'], ['purchase', 'O'], ['of', 'O'], ['Seattle-based', 'O'], ['Turi.', 'O']]
+  
+  
+  
+Article name:  Taking stock of Apple's 2016 acquisitions
+Article number:  9
+[['Taking', 'O'], ['stock', 'O'], ['of', 'O'], ["Apple's", 'O'], ['2016', 'O'], ['acquisitions', 'O'], ['Apples', 'O'], ['acquisition', 'O'], ['this', 'O'], ['past', 'O'], ['week', 'O'], ['of', 'O'], ['Turi,', 'O'], ['a', 'O'], ['Seattle', 'LOCATION'], ['machine', 'O'], ['learning', 'O'], ['company', 'O'], ['that', 'O'], ['has', 'O'], ['its', 'O'], ['roots', 'O'], ['in', 'O'], ['the', 'O'], ['open', 'O'], ['source', 'O'], ['GraphLab', 'O'], ['project,', 'O'], ['brings', 'O'], ['to', 'O'], ['six', 'O'], ['the', 'O'], ['number', 'O'], ['of', 'O'], ['deals', 'O'], ['Apple', 'ORGANIZATION'], ['has', 'O'], ['made', 'O'], ['this', 'O'], ['year', 'O'], ['that', 'O'], ['have', 'O'], ['gone', 'O'], ['public.', 'O']]
+  
+[['So', 'O'], ['while', 'O'], ['Apples', 'O'], ['$2.5', 'O'], ['billion', 'O'], ['in', 'O'], ['R&D', 'O'], ['spending', 'O'], ['during', 'O'], ['its', 'O'], ['recently', 'O'], ['completed', 'O'], ['second', 'O'], ['quarter', 'O'], ['represented', 'O'], ['a', 'O'], ['25%', 'O'], ['increase', 'O'], ['over', 'O'], ['the', 'O'], ['year-ago', 'O'], ['period', 'O'], ['and', 'O'], ['indicates', 'O'], ['that', 'O'], ['Apple', 'ORGANIZATION'], ['is', 'O'], ['building', 'O'], ['plenty', 'O'], ['of', 'O'], ['futuristic', 'O'], ['technology', 'O'], ['in-house,', 'O'], ['the', 'O'], ['company', 'O'], ['continues', 'O'], ['to', 'O'], ['buy', 'O'], ['startups', 'O'], ['at', 'O'], ['roughly', 'O'], ['the', 'O'], ['same', 'O'], ['pace', 'O'], ['it', 'O'], ['has', 'O'], ['for', 'O'], ['the', 'O'], ['past', 'O'], ['three', 'O'], ['years,', 'O'], ['during', 'O'], ['which', 'O'], ['it', 'O'], ['has', 'O'], ['snapped', 'O'], ['up', 'O'], ['9', 'O'], ['to', 'O'], ['15', 'O'], ['businesses', 'O'], ['annually', 'O'], ['at', 'O'], ['least', 'O'], ['that', 'O'], ['we', 'O'], ['know', 'O'], ['about.', 'O']]
+  
+[['The', 'O'], ['iPhone', 'O'], ['and', 'O'], ['Mac', 'O'], ['maker', 'O'], ['is', 'O'], ['notoriously', 'O'], ['cryptic', 'O'], ['when', 'O'], ['it', 'O'], ['comes', 'O'], ['to', 'O'], ['announcing', 'O'], ['acquisitions,', 'O'], ['so', 'O'], ['its', 'O'], ['tricky', 'O'], ['to', 'O'], ['say', 'O'], ['precisely', 'O'], ['how', 'O'], ['many', 'O'], ['companies', 'O'], ['it', 'O'], ['has', 'O'], ['actually', 'O'], ['bought,', 'O'], ['with', 'O'], ['confirmation', 'O'], ['sometimes', 'O'], ['leaking', 'O'], ['out', 'O'], ['months', 'O'], ['later', 'O'], ['in', 'O'], ['required', 'O'], ['financial', 'O'], ['disclosures.', 'O']]
+  
+[['Even', 'O'], ['in', 'O'], ['the', 'O'], ['case', 'O'], ['of', 'O'], ['Turi,', 'O'], ['Apple', 'O'], ['wasnt', 'O'], ['proactive', 'O'], ['about', 'O'], ['announcing', 'O'], ['the', 'O'], ['supposed', 'O'], ['$200', 'O'], ['million', 'O'], ['deal,', 'O'], ['but', 'O'], ['did', 'O'], ['confirm', 'O'], ['the', 'O'], ['transaction', 'O'], ['to', 'O'], ['Recode', 'O'], ['after', 'O'], ['GeekWire', 'O'], ['broke', 'O'], ['the', 'O'], ['story.', 'O']]
+  
+[['Apple', 'ORGANIZATION'], ['hasnt', 'O'], ['formally', 'O'], ['announced', 'O'], ['an', 'O'], ['acquisition', 'O'], ['since', 'O'], ['its', 'O'], ['$3', 'O'], ['billion', 'O'], ['Beats', 'O'], ['Electronics', 'O'], ['blockbuster', 'O'], ['in', 'O'], ['2014.', 'O']]
+  
+[['MORE:', 'O'], ['10', 'O'], ['Most', 'O'], ['important', 'O'], ['networking', 'O'], ['acquisitions', 'O'], ['of', 'O'], ['2015', 'O'], ['As', 'O'], ['for', 'O'], ['Turi,', 'O'], ['its', 'O'], ['mission', 'O'], ['is', 'O'], ['to', 'O'], ['help', 'O'], ['organizations', 'O'], ['build', 'O'], ['intelligent', 'O'], ['and', 'O'], ['scalable', 'O'], ['applications,', 'O'], ['and', 'O'], ['its', 'O'], ['offerings', 'O'], ['can', 'O'], ['be', 'O'], ['hosted', 'O'], ['on', 'O'], ['premise', 'O'], ['or', 'O'], ['in', 'O'], ['the', 'O'], ['cloud.', 'O']]
+  
+[['Sample', 'O'], ['uses', 'O'], ['cases', 'O'], ['include', 'O'], ['recommendation', 'O'], ['engines,', 'O'], ['fraud', 'O'], ['detection', 'O'], ['and', 'O'], ['sentiment', 'O'], ['analysis.', 'O']]
+  
+[['Apple,', 'O'], ['which', 'O'], ['has', 'O'], ['been', 'O'], ['working', 'O'], ['to', 'O'], ['make', 'O'], ['Siri', 'PERSON'], ['more', 'O'], ['powerful', 'O'], ['and', 'O'], ['open', 'O'], ['(as', 'O'], ['demonstrated', 'O'], ['at', 'O'], ['its', 'O'], ['recent', 'O'], ['Worldwide', 'O'], ['Developers', 'O'], ['Conference),', 'O'], ['could', 'O'], ['benefit', 'O'], ['from', 'O'], ['additional', 'O'], ['machine', 'O'], ['learning', 'O'], ['and', 'O'], ['AI', 'O'], ['technology', 'O'], ['via', 'O'], ['an', 'O'], ['acquisition', 'O'], ['such', 'O'], ['as', 'O'], ['that', 'O'], ['of', 'O'], ['Turi.', 'O']]
+  
+[["''As", 'O'], ['you', 'O'], ['can', 'O'], ['see', 'O'], ['from', 'O'], ['the', 'O'], ['latest', 'O'], ['acquisition', 'O'], ['of', 'O'], ['Turi', 'LOCATION'], ['by', 'O'], ['Apple,', 'O'], ['the', 'O'], ['focus', 'O'], ['has', 'O'], ['been', 'O'], ['shifting', 'O'], ['from', 'O'], ['a', 'O'], ['consumer', 'O'], ['product', 'O'], ['company', 'O'], ['to', 'O'], ['an', 'O'], ['analytics', 'O'], ["company,''", 'O'], ['says', 'O'], ['Vineet', 'PERSON'], ['Asthana,', 'PERSON'], ['managing', 'O'], ['director', 'O'], ['at', 'O'], ['investment', 'O'], ['bank', 'O'], ['Berkery', 'ORGANIZATION'], ['Noyes.', 'ORGANIZATION']]
+  
+[["''Turi", 'O'], ['is', 'O'], ['a', 'O'], ['machine', 'O'], ['learning', 'O'], ['and', 'O'], ['predictive', 'O'], ['analytics', 'O'], ['company,', 'O'], ['which', 'O'], ['utilizes', 'O'], ['data', 'O'], ['science', 'O'], ['and', 'O'], ['algorithm', 'O'], ['based', 'O'], ['applications', 'O'], ['to', 'O'], ['predict', 'O'], ['consumer', 'O'], ['intent.', 'O']]
+  
+[['Its', 'O'], ['a', 'O'], ['big', 'O'], ['data', 'O'], ['play', 'O'], ['with', 'O'], ['a', 'O'], ['software', 'O'], ['platform.', 'O']]
+  
+[['Apple', 'ORGANIZATION'], ['is', 'O'], ['competing', 'O'], ['with', 'O'], ['Amazon', 'LOCATION'], ['and', 'O'], ['IBM', 'ORGANIZATION'], ['in', 'O'], ['that', 'O'], ['space.', 'O']]
+  
+[['IBM', 'ORGANIZATION'], ['has', 'O'], ['Watson,', 'O'], ['which', 'O'], ['is', 'O'], ['gaining', 'O'], ['popularity', 'O'], ['and', 'O'], ['Amazon', 'LOCATION'], ['has', 'O'], ['Alexa.', 'O']]
+  
+[['Data', 'O'], ['science', 'O'], ['is', 'O'], ['where', 'O'], ['the', 'O'], ['technology', 'O'], ['companies', 'O'], ['are', 'O'], ['looking', 'O'], ['to', 'O'], ['grow', 'O'], ["further.''", 'O']]
+  
+[['Apple', 'ORGANIZATION'], ['has', 'O'], ['been', 'O'], ['pretty', 'O'], ['aggressive', 'O'], ['over', 'O'], ['the', 'O'], ['past', 'O'], ['year', 'O'], ['in', 'O'], ['buying', 'O'], ['companies', 'O'], ['that', 'O'], ['have', 'O'], ['artificial', 'O'], ['intelligence', 'O'], ['expertise.', 'O']]
+  
+[['These', 'O'], ['include', 'O'], ['Perceptio,', 'O'], ['known', 'O'], ['for', 'O'], ['its', 'O'], ['image', 'O'], ['recognition', 'O'], ['technology;', 'O'], ['VocalIQ', 'O'], ['While', 'O'], ['Apple', 'O'], ['hasnt', 'O'], ['gone', 'O'], ['on', 'O'], ['a', 'O'], ['machine', 'O'], ['learning', 'O'], ['and', 'O'], ['AI', 'O'], ['buying', 'O'], ['spree,', 'O'], ['last', 'O'], ['September', 'O'], ['it', 'O'], ['did', 'O'], ['pick', 'O'], ['up', 'O'], ['both', 'O'], ['Perceptio,', 'O'], ['which', 'O'], ['was', 'O'], ['working', 'O'], ['on', 'O'], ['AI', 'O'], ['and', 'O'], ['image', 'O'], ['recognition', 'O'], ['technologies', 'O'], ['for', 'O'], ['phones,', 'O'], ['and', 'O'], ['VocalQ,', 'O'], ['a', 'O'], ['speech', 'O'], ['recognition', 'O'], ['startup.', 'O']]
+  
+[['In', 'O'], ['January,', 'O'], ['Apple', 'ORGANIZATION'], ['added', 'O'], ['Emotient,', 'O'], ['which', 'O'], ['uses', 'O'], ['AI', 'O'], ['for', 'O'], ['emotion', 'O'], ['recognition.', 'O']]
+  
+[['Apples', 'O'], ['other', 'O'], ['acquisitions', 'O'], ['this', 'O'], ['year', 'O'], ['have', 'O'], ['been', 'O'], ['all', 'O'], ['over', 'O'], ['the', 'O'], ['map:', 'O'], ['*LearnSprout,', 'O'], ['which', 'O'], ['makes', 'O'], ['software', 'O'], ['for', 'O'], ['schools', 'O'], ['to', 'O'], ['track', 'O'], ['student', 'O'], ['performance', 'O'], ['*FlyBy', 'O'], ['Media,', 'O'], ['an', 'O'], ['augmented', 'O'], ['reality', 'O'], ['company', 'O'], ['started', 'O'], ['in', 'O'], ['2010', 'O'], ['that', 'O'], ['had', 'O'], ['worked', 'O'], ['with', 'O'], ['Google', 'ORGANIZATION'], ['on', 'O'], ['its', 'O'], ['Project', 'O'], ['Tango.', 'O']]
+  
+[['*LegbaCore,', 'O'], ['an', 'O'], ['OS', 'O'], ['firmware', 'O'], ['security', 'O'], ['firm', 'O'], ['that', 'O'], ['OK,', 'O'], ['Apple', 'ORGANIZATION'], ['technically', 'O'], ['bought', 'O'], ['in', 'O'], ['November,', 'O'], ['but', 'O'], ['word', 'O'], ['of', 'O'], ['the', 'O'], ['deal', 'O'], ['didnt', 'O'], ['leak', 'O'], ['out', 'O'], ['until', 'O'], ['February', 'O'], ['of', 'O'], ['this', 'O'], ['year.', 'O']]
+  
+[['*Carpool', 'O'], ['Karaoke', 'O'], ['TV', 'O'], ['series', 'O'], ['based', 'O'], ['on', 'O'], ['The', 'O'], ['Late', 'O'], ['Late', 'O'], ['Show', 'O'], ['with', 'O'], ['James', 'PERSON'], ['Cordens', 'PERSON'], ['popular', 'O'], ['musical', 'O'], ['segment.', 'O']]
+  
+[['This', 'O'], ['purchase', 'O'], ['belongs', 'O'], ['to', 'O'], ['Apple', 'ORGANIZATION'], ['Music,', 'O'], ['which', 'O'], ['will', 'O'], ['distribute', 'O'], ['the', 'O'], ['unscripted', 'O'], ['show.', 'O']]
+  
+[['Forrester', 'ORGANIZATION'], ['Principal', 'ORGANIZATION'], ['Analyst', 'O'], ['Michael', 'PERSON'], ['Facemire', 'PERSON'], ['says', 'O'], ['that', 'O'], ["''Outside", 'O'], ['of', 'O'], ['the', 'O'], ['Carpool', 'ORGANIZATION'], ['Karaoke', 'ORGANIZATION'], ['purchase,', 'O'], ['the', 'O'], ['rest', 'O'], ['show', 'O'], ['an', 'O'], ['expansion', 'O'], ['of', 'O'], ['the', 'O'], ['business', 'O'], ['into', 'O'], ['broader', 'O'], ['digital', 'O'], ['experience', 'O'], ["areas,''", 'O'], ['including', 'O'], ['machine', 'O'], ['learning', 'O'], ['and', 'O'], ['augmented', 'O'], ['reality.', 'O']]
+  
+[["''In", 'O'], ['the', 'O'], ['very', 'O'], ['near', 'O'], ['future,', 'O'], ['digitally', 'O'], ['interacting', 'O'], ['with', 'O'], ['consumers', 'O'], ['isnt', 'O'], ['just', 'O'], ['a', 'O'], ['mobile', 'O'], ['play,', 'O'], ['its', 'O'], ['a', 'O'], ['multi-channel', 'O'], ["play,''", 'O'], ['he', 'O'], ['says.', 'O']]
+  
+[['MORE:', 'O'], ['Best', 'O'], ['iPhone', 'O'], ['7', 'O'], ['design', 'O'], ['concepts', 'O'], ['of', 'O'], ['2016', 'O'], ['so', 'O'], ['far', 'O']]
+  
+  
+  

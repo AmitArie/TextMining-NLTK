@@ -1,14 +1,19 @@
 
 
-1. Can be found at articles_tags_file.json.
-   A file that represents a lisr of JSONs, one per article,
-   with tagged sentences of every article.
+1. Can be found at articlesJsons.rar
 
 
 2. i picked the first 10 articles.
    
  	|	CLASS			|	total_number_of_instances	|	correctly_identified	|	incorrectly_identified	|	Precision	|	Recall	|
  	|-------------------|-------------------------------|---------------------------|---------------------------|---------------|---------	|
- 	|	ORGANIZATION	|	total_number_of_instances	|	correctly_identified	|	incorrectly_identified	|	Precision	|	Recall	|
- 	|	LOCATION		|	total_number_of_instances	|	correctly_identified	|	incorrectly_identified	|	Precision	|	Recall	 
- 	|	PERSON			|	total_number_of_instances	|	correctly_identified	|	incorrectly_identified	|	Precision	|	Recall
+ 	|	ORGANIZATION	|	106							|	69						|	37						|	0.65		|	0.65	|
+ 	|	LOCATION		|	32							|	22						|	10						|	0.68		|	0.68	|
+ 	|	PERSON			|	48							|	25						|	23						|	0.52		|	0.52	|
+
+
+
+
+3.
+
+
