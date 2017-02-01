@@ -91,21 +91,20 @@ def create_ORG_PERSON_CSV():
     print("There are ", len(persons), " Persons In all the Articles")
 
     print(organizations)
-    # print(organizations[0])
-    # with open('POS_ORG_CO_OC.csv', 'w') as csvfile:
-    #     writer = csv.writer(csvfile, delimiter='\t')
-    #     writer.writerow(["Organization", "Person", "Article Name", "Article Number", "Sentence Number"])
-    #
-    #     for organization in organizations:
-    #         if organization.isspace():
-    #             continue
-    #         print (organization)
-    #         for person in persons:
-    #             print("Checking if Organization: ",organization , " and Person: ", person , " are in the same sentence.")
-    #             res = is_person_organization_contained_at_same_sentence(person, organization, articles)
-    #             if res:
-    #                 writer.writerow([organization, person, res[0].strip("\""), res[2], res[1]])
-    #                 print("Writing into csv: ", [organization, person, res[0].strip("\""), res[2], res[1]])
+    print(organizations[0])
+    with open('POS_ORG_CO_OC.csv', 'w') as csvfile:
+        writer = csv.writer(csvfile, delimiter='\t')
+        writer.writerow(["Organization", "Person", "Article Name", "Article Number", "Sentence Number"])
+
+        for organization in organizations:
+            if organization == '':
+                continue
+            for person in persons:
+                print("Checking if Organization: ",organization , " and Person: ", person , " are in the same sentence.")
+                res = is_person_organization_contained_at_same_sentence(person, organization, articles)
+                if res:
+                    writer.writerow([organization, person, res[0].strip("\""), res[2], res[1]])
+                    print("Writing into csv: ", [organization, person, res[0].strip("\""), res[2], res[1]])
 
 
 def main():
